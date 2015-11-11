@@ -1,0 +1,60 @@
+Expert Systems with Applications
+The Journal of Machine Learning Research
+Neural Information Processing Systems (NIPS)
+International Conference on Machine Learning (ICML)
+Applied Soft Computing
+arXiv Learning (cs.LG)
+IEEE Transactions on Fuzzy Systems
+IEEE Transactions On Systems, Man And Cybernetics Part B, Cybernetics
+IEEE Transactions on Neural Networks
+arXiv Machine Learning (stat.ML)
+Neurocomputing
+AAAI Conference on Artificial Intelligence
+Artificial Intelligence
+International Joint Conference on Artificial Intelligence (IJCAI)
+Engineering Applications of Artificial Intelligence
+Neural Networks
+IEEE Transactions on Neural Networks and Learning Systems
+arXiv Artificial Intelligence (cs.AI)
+IEEE International Conference on Data Mining (ICDM)
+Machine Learning
+Applied Soft Computing
+IEEE Transactions on Evolutionary Computation
+Soft Computing
+Conference on Genetic and Evolutionary Computation
+IEEE Congress on Evolutionary Computation
+arXiv Neural and Evolutionary Computing (cs.NE)
+Swarm and Evolutionary Computation
+Evolutionary Computation
+Natural Computing
+International Journal of Bio-Inspired Computation
+International Conference on Applications of Evolutionary Computation
+International Conference on Parallel problem solving from nature
+Artificial Life
+Genetic Programming and Evolvable Machines
+International Conference on Natural Computation
+Learning and Intelligent Optimization
+Memetic Computing
+International Conference on Swarm Intelligence
+Evolutionary Multi-Criterion Optimization
+International Conference on the Synthesis and Simulation of Living Systems
+IEEE Transactions on Parallel and Distributed Systems
+Symposium on Networked Systems: Design and Implementation (NSDI)
+International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
+Future Generation Computer Systems
+International Symposium on Computer Architecture (ISCA)
+Supercomputing (SC)
+IEEE International Conference on Cloud Computing (CLOUD)
+IEEE International Symposium on Parallel and Distributed Processing
+ACM european Conference on Computer Systems
+ACM Symposium on Cloud Computing
+IEEE International Symposium on High Performance Computer Architecture
+IEEE/ACM International Symposium on Microarchitecture
+arXiv Distributed, Parallel, and Cluster Computing (cs.DC)
+Conference on File and Storage Technologies (FAST)
+IEEE International Symposium on Cluster Computing and the Grid
+ACM SIGMETRICS Performance Evaluation Review
+International Conference on Distributed Computing Systems, ICDCS
+IEEE Transactions on Services Computing
+Journal of Parallel and Distributed Computing
+USENIX Annual Technical Conference
