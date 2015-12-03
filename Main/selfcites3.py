@@ -9,9 +9,8 @@ import urllib2
 import sys
 import json
 import readFile
-import datetime
 #import re
-IsTesting = 1 #is True 
+#IsTesting = 1 is True 
 JInfo = [] 
 year= ['2012', '2013', '2014', '2015']
 h5_index = 0
@@ -25,7 +24,6 @@ orig_stdout = sys.stdout
 #f = 0 #file('../dump/selfcites.txt', 'a')
 #sys.stdout = f
 
-#this is depricated as directly data is written to spreadsheet
 def writeToFile(somestr):
     global f
     json.dump(somestr, f)
@@ -33,30 +31,20 @@ def writeToFile(somestr):
 def checkForDwnldThreshold():
     #controlling the blocking of program
     global stopat1000, stopFortheDay
-    print "Count down: " + str(stopat1000)
-    if stopat1000 > 490:
-        current_time = datetime.datetime.now().time()
-        print "sleeping for an hour now: " + current_time.isoformat()
-        #sleep(3600)
-        sleep(900)
-        print "sleep over at: " + (datetime.datetime.now().time()).isoformat()
+    if stopat1000 > 900:
+        sleep(3600)
         stopFortheDay = stopFortheDay + stopat1000
         stopat1000 = 0
-    if stopFortheDay > 2500:
-        current_time = datetime.datetime.now().time()
-        print "sleeping for day: " + current_time.isoformat()
+    if stopFortheDay > 2400:
         sleep(86400)
-        print "sleep over"
         stopFortheDay = 0
      
     
 def writeToSpreadsheet(dictItem):
     with open('../dump/spreadsheet.csv','a') as outfile:
-        writer = DictWriter(outfile, ['Id', 'JName', 'Title', 'Authors_name', 'YearOfPub', 'CitedByLink', 'CitesPerPaper', 'SelCitesPerPaper', 'venue', 'h5_index', 'h5_median'])
-        if readFile.HeaderExists()==0:
-            writer.writeheader()
-        #writer.writerows(dictItem)
-        writer.writerow(dictItem)
+        writer = DictWriter(outfile, ['Id', 'JName', 'Authors_name', 'YearOfPub', 'CitedByLink', 'CitesPerPaper', 'SelCitesPerPaper', 'venue', 'h5_index', 'h5_median'])
+        writer.writeheader()
+        writer.writerows(dictItem)
 
 def urlopener(url):
     opener = urllib2.build_opener()
@@ -87,7 +75,6 @@ def urlopener(url):
     
         
     return html_page
-
 # function to get the link to all papers of that Journal 
 def getLinktoAllPapers( jName):
     url = "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq="+jName
@@ -104,13 +91,12 @@ def getLinktoAllPapers( jName):
         h5_index = int(h5_indexSTR)
         #print h5_index , h5_median
         venue = (td_list[2].find("a")).get('href')
+        #print venue
         youRL = "https://scholar.google.com/"+ venue
-        print "Extracting cited docs for: " + youRL
         dict1 = {'JName': jName, 'h5_index' : h5_indexSTR, 'h5_median': h5_medianSTR, 'venue' : youRL };
-        #global JInfo
-        #JInfo.append(dict1)
-        writeToSpreadsheet(dict1)
-        #writeToFile ("link to main is: "+youRL+"\n") 
+        global JInfo
+        JInfo.append(dict1)
+        writeToFile ("link to main is: "+youRL+"\n") 
         return youRL
 
 #for every publication/paper in the journal compute the self-citation and add to the JInfo List
@@ -132,50 +118,38 @@ def getPubInfo(pubsLink, jName, pages):
         td_list = []
         global count
         table = soup.find('table', {'id': 'gs_cit_list_table'})
-        #for testing this will halp start from the middle of scraping at particular paper
-        global IsTesting
-        if int(IsTesting) == 1:
-            skipCount = 0
-            IsTesting = 0
-        else:
-            skipCount = 0
         for row in table.findAll("tr"):
             # print row.text
             td_list = row.findAll("td")
             if (td_list.__len__() > 0 ):
-                if any(x in td_list[2].text for x in year) :
-                    if skipCount == 0:
-                        selfcites_count = 0
-                        #print td_list[0].text
-                        authors = (td_list[0].find("span", attrs={"class": "gs_authors"})).text
-                        citesLink = (td_list[1].find("a")).get('href')
-                        title = (td_list[0].find("span")).text
-                        citesCount = int(td_list[1].text)
-                        print "title: " + str(title.encode('utf-8'))
-                        dict1 = {'Id': count, 'JName': jName, 'Authors_name': authors.encode('utf-8'), 'YearOfPub':td_list[2].text, 'CitedByLink': citesLink, 'CitesPerPaper':citesCount, 'SelCitesPerPaper':-1, 'Title': title.encode('utf-8')};
-                        #global JInfo
-                        #JInfo.append(dict1)           
-                        count = count+1
-                        #writeToFile("https://scholar.google.com/"+citesLink+"\n" )
-                        #for this paper review the cited papers and compute self citations
-                        for pages in range(0, citesCount, 20):
-                            #controlling the blocking of the program
-                            global stopat1000
-                            checkForDwnldThreshold()
-                            stopat1000 = stopat1000 + 20
-              
-                            Link = citesLink + "&cstart=" + str(pages)
-                            print "fetching all 20 cited papers from: " + Link
-                            selfcites_count = selfcites_count +  computeSelfcites(Link, authors, citesCount)
-                            #writeToFile(Link)
-                        dict1['SelCitesPerPaper'] = selfcites_count     
-                        
-                        writeToSpreadsheet(dict1)
-                        #writeToFile (dict1)
-                    else:
-                        print "skipped: " + str(skipCount)
-                        skipCount= skipCount - 1
+                if any(x in td_list[2].text for x in year):
+                    selfcites_count = 0
+                    #print td_list[1].text
+                    authors = (td_list[0].find("span", attrs={"class": "gs_authors"})).text
+                    citesLink = (td_list[1].find("a")).get('href')
+                    citesCount = int(td_list[1].text)
+                    #print authors.textt, citesLink
+                    #process the record, else ignore
+                    dict1 = {'Id': count, 'JName': jName, 'Authors_name': authors, 'YearOfPub':td_list[2].text, 'CitedByLink': citesLink, 'CitesPerPaper':citesCount, 'SelCitesPerPaper':-1};
+                    global JInfo
+                    JInfo.append(dict1)           
+                    count = count+1
+                    writeToFile("https://scholar.google.com/"+citesLink+"\n" )
+                    #for this paper review the citated papers and compute self citations
+                    for pages in range(0, citesCount, 20):
+                        #controlling the blocking of the program
+                        global stopat1000
+                        checkForDwnldThreshold()
+                        stopat1000 = stopat1000 + pages
+          
+                        Link = citesLink + "&cstart=" + str(pages)
+                        selfcites_count = selfcites_count +  computeSelfcites(Link, authors, citesCount)
+                        writeToFile(Link)
+                    dict1['SelCitesPerPaper'] = selfcites_count     
                     
+                    #writeToSpreadsheet(dict1)
+                    writeToFile (dict1)
+        
     #print JInfo  
       
 #function to extract and check the self citations per paper
@@ -190,23 +164,19 @@ def computeSelfcites(citesLink, authorNames, citesCount):
         table = soup.find('table', {'id': 'gs_cit_list_table'})
         for row in table.findAll("tr"):
             # print row.text
-                 
             td_list = row.findAll("td")
             if (td_list.__len__() > 0 ):
-                #if any(x in td_list[1].text for x in year): WAS THIS RIGHT TO CHECK YEAR for each cited? 
+                if any(x in td_list[1].text for x in year):
                     #print td_list[1].text
-                authors = (td_list[0].find("span", attrs={"class": "gs_authors"})).text
+                    authors = (td_list[0].find("span", attrs={"class": "gs_authors"})).text
                     #print authors, td_list[1].text
-                print authors
-                print authorNames
-                print "-----------------------------------------"
-                list1 = authors.split(",")
-                list2 = authorNames.split(",")
-                check = compareToauthors(list1, list2 )
-                if check == True:
-                    selfcites = selfcites + 1
-                
-                    
+                    list1 = authors.split(",")
+                    list2 = authorNames.split(",")
+                    #print list1, list2
+                    check = compareToauthors(list1, list2 )
+                    if check == True:
+                        selfcites = selfcites + 1
+    
     #print selfcites
     # close urllib object
     #html_page.close()
@@ -214,15 +184,13 @@ def computeSelfcites(citesLink, authorNames, citesCount):
 
 def compareToauthors(list1, list2 ):
     
-    list1 = [(element.strip()).upper() for element in list1]
-    list2 = [(element.strip()).upper() for element in list2]
-    print list1 
-    print list2
-    print "----------------------------------------"
+    list1 = [element.upper() for element in list1]
+    list2 = [element.upper() for element in list2]
+    #print list1, list2
     check = ' '.join(list(set(list1) & set(list2)))
     if check.__len__() > 0:
-        print "check is : " + str(check)
-        #writeToFile("\n"+str(1)+"\n")
+        #print check
+        writeToFile("\n"+str(1)+"\n")
         return True
     return False
 
@@ -232,7 +200,7 @@ def compareToauthors(list1, list2 ):
 #read the confif file in ./settings/settings.ini
 readFile.readConfig()
 IsTesting = readFile.IsTesting()
-print "Testing set to: " + str(IsTesting)    
+print "Testing set to: " + IsTesting    
 #For testing
 if int(IsTesting) == 1:
     TotJnames = 1    
@@ -243,7 +211,7 @@ while (TotJnames > 0):
     #For testing
     
     if int(IsTesting) == 1: 
-        s ="International Conference on Machine Learning (ICML)"#"3D Research" #"Expert Systems with Applications" #"The Journal of Machine Learning Research"#"ACM Computing Surveys"#"3D Research" #"ACM Transactions on Computational Logic" #"ACM Computing Surveys"#"AAAI Conference on Artificial Intelligence"#"ACM Communications in Computer Algebra"  #"AAAI Conference on Artificial Intelligence" #"ACM Transactions on Applied Perception" #"ACM Transactions on Autonomous and Adaptive Systems" #"ACM Computing Surveys" #"ACM Transactions on Applied Perception" #"4OR" 
+        s = "3D Research" #"ACM Computing Surveys"#"AAAI Conference on Artificial Intelligence"#"ACM Transactions on Computational Logic" #"ACM Transactions on Applied Perception" #"ACM Transactions on Autonomous and Adaptive Systems" #"ACM Computing Surveys" #"ACM Transactions on Applied Perception" #"4OR" #"ACM Communications in Computer Algebra" 
     else: #from file
         s = readFile.ReadJName()  
     
@@ -251,32 +219,27 @@ while (TotJnames > 0):
     journalName = s.replace(" ", "+")
     start = "------------------" + s + "-----------------\n"
     
-    #global f
-    #f = file('../dump/'+s+'.txt', 'a')
-    #writeToFile(start)
+    global f
+    f = file('../dump/'+s+'.txt', 'a')
+    writeToFile(start)
     #NOTE: init all the global variables after printing data to file
     #print journalName
     pubsForjNameURL = getLinktoAllPapers(journalName) #when the JOURNAL name is searched in search box
     pages = 0
-    #stopat1000 = stopat1000 + h5_index
-    #writeToFile( str(h5_index) )
+    stopat1000 = stopat1000 + h5_index
+    writeToFile( str(h5_index) )
     totPages = h5_index
     for pages in range(0, totPages, 20):
-    #for pages in range(0, 40, 20):
         sys.stdout = orig_stdout
-        #checkForDwnldThreshold()
-        stopat1000 = stopat1000 + 20
-        try:
-            getPubInfo(pubsForjNameURL, journalName, pages) #PAGING logic
-        except: # catch *all* exceptions
-            e = sys.exc_info()[0]
-            print e
-        #writeToFile( str(pages)+"\n" )
-    #writeToFile( str(JInfo)+"\n" )
+        checkForDwnldThreshold()
+        stopat1000 = stopat1000 + pages
+        getPubInfo(pubsForjNameURL, journalName, pages) #PAGING logic
+        writeToFile( str(pages)+"\n" )
+    writeToFile( str(JInfo)+"\n" )
     #print JInfo
-    #writeToSpreadsheet(JInfo)
-    #sys.stdout = orig_stdout
-    #f.close()
+    writeToSpreadsheet(JInfo)
+    sys.stdout = orig_stdout
+    f.close()
     TotJnames = TotJnames -1
 
 # Global List: A list of dictionary elements with SerialNum:<count>,Journal Name:<name of journal>, Authors_name:<name>, YearOfPub:<year>, CitedByLink:<string>, CitesPerPaper:<count>, SelCitesPerPaper:<count>

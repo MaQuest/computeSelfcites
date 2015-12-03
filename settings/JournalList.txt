@@ -1,7 +1,4 @@
-Expert Systems with Applications
-The Journal of Machine Learning Research
 Neural Information Processing Systems (NIPS)
-International Conference on Machine Learning (ICML)
 Applied Soft Computing
 arXiv Learning (cs.LG)
 IEEE Transactions on Fuzzy Systems
