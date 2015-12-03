@@ -88,8 +88,3 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/urllib2.py", line 1177, in do_open
     raise URLError(err)
 urllib2.URLError: <urlopen error [Errno 101] Network is unreachable>
-
-
-
-
-
