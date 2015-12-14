@@ -1,95 +1,2551 @@
-Testing set to: 0
-Reading JName now
-JName in process is: International Conference on Machine Learning (ICML)
-Extracting cited docs for: https://scholar.google.com//citations?hl=en&view_op=list_hcore&venue=lQI3yXVEiigJ.2015
-1
-title: Building high-level features using large scale unsupervised learning
-Count down: 20
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=0
-Count down: 40
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=20
-Count down: 60
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=40
-Count down: 80
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=60
-Count down: 100
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=80
-Count down: 120
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=100
-Count down: 140
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=120
-Count down: 160
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=140
+[u'F BENHAMIDA', u'Y SALHI', u'I ZIANE', u'S SOUAG', u'R BELHACHEM', u'A BENDAOUD']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'\u5f90\u660e\uff0c \u5218\u5e7f\u949f']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'N RAJALAKSHMI', u'DP SUBRAMANIAN', u'K THAMIZHAVEL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'MJ KAZEMZADEH-PARSI', u'F DANESHMAND', u'MA AHMADFARD', u'J ADAMOWSKI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'T XIONG', u'Y BAO', u'Z HU']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'LFF MIGUEL', u'LFF MIGUEL', u'RH LOPEZ']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'ES ALI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'X XIANG']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'C VASAVI', u'AVN BABU', u'S SIVANAGARAJU']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'VB SAPUTRA', u'SK ONG', u'AYC NEE']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
 Count down: 180
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=160
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=6&cstart=160
+[u'Y SALHI', u'F BENHAMIDA', u'I ZIANE', u'G AMEL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'L PRESTES', u'C ALMEIDA', u'R GON\xc7ALVES', u'J KUK', u'S VENSKE']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'CW TSAI', u'YT HUANG', u'MC CHIANG']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'\u5468\u817e\u98de\uff0c \u5f6d\u66f4\u65b0\uff0c \u80e1\u5929\u8dc3\uff0c \u6bb5\u6587\u80dc\uff0c \u59da\u9022\u660c\uff0c \u5218\u4f9d\u8c0b']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'K ASOKAN', u'RA KUMAR']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'P ERDO\u011eMU\u015e', u'E YALCIN']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'XS YANG', u'S KOZIEL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+check is : XS YANG
+[u'R SELVARASU', u'MS KALAVATHI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'R CHEN']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'M ZHANG', u'Z HU', u'J SUO', u'Z ZHANG']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'G RAM', u'D MANDAL', u'R KAR', u'SP GHOSHAL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'Y ZHANG', u'D LI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'\u59da\u4e3d\uff0c \u80e1\u5b87\uff0c \u8d75\u6d77\u5cf0']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'MN ABDULLAH', u'AHA BAKAR', u'H MOKHLIS', u'JJ JAMIAN']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'ZN ZAKARIA', u'A AZMI', u'MS LAILI', u'S JAMALIL', u'MH SULAIMAN']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'BR PRIYA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'P VIDAL', u'AC OLIVERA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'AAA MOHAMED', u'AAM EL-GAAFARY', u'YS MOHAMED', u'AM HEMEIDA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'DMB DE ALMEIDA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'M AZZAM', u'S SELVAN', u'A LEF\xc8VRE', u'PA ABSIL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
 Count down: 200
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=180
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=6&cstart=180
+[u'GZA SALH', u'AH MANSOUR', u'S KASSALA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'Y SALHI', u'F BENHAMIDA', u'I ZIANE', u'G AMEL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'YA GHERBI', u'H BOUZEBOUDJA', u'F LAKDJA', u'FZ GHERBI', u'D OULD-ABDESLAM']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'Y SALHI', u'F BENHAMIDA', u'B BOUCHIBA', u'I ZIANE', u'S SOUAG']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'PL PRASANNA', u'DR RAO', u'Y NAMRATHA', u'N SREE', u'M YAMINI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'A MANJU', u'MJ NIGAM']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'ON ALMASI', u'M KAVOUSI', u'A ZARE']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'G VISWANATH']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'R MISHRA', u'KN DAS']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'A K\u0226', u'AK R\u0226']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'BP HADHI', u'I ROBANDI', u'RS WIBOWO']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'R SELVARASU', u'MS KALAVATHI', u'CCA RAJAN']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'\u9a6c\u5c0f\u96e8\uff0c \u9ad8\u7ee7\u52cb']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'MH SULAIMAN', u'MR MOHAMED']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'G CHANDRAKALA', u'V RAMAKRISHNA', u'JB SHAIK', u'D SAMSON', u'TM OMONIYI', u'...']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'DR PRABHA', u'T JAYABARATHI', u'R MAGESHVARAN', u'KK KUMAR', u'MV NIVEESH']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'C ZHANG', u'N SAXENA', u'F KONG', u'J HE']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'A KHAN', u'P BHATTACHARYA', u'SK SARKAR']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'AV HUSSELMANN', u'KA HAWICK']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'L CHANDRA SAIKIA', u'A CHOWDHURY', u'N SHAKYA', u'S SHUKLA', u'PK SONI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
 Count down: 220
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=200
-Count down: 240
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=220
-Count down: 260
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=240
-Count down: 280
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=260
-Count down: 300
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=280
-Count down: 320
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=300
-Count down: 340
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=320
-Count down: 360
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=340
-Count down: 380
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=360
-Count down: 400
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=380
-Count down: 420
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=400
-Count down: 440
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=420
-Count down: 460
-sleeping for an hour now: 10:46:38.463049
-sleep over at: 11:01:38.563170
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=440
-Count down: 20
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=460
-Count down: 40
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=480
-Count down: 60
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=500
-Count down: 80
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=0&cstart=520
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=6&cstart=200
+[u'R SELVARASU', u'MS KALAVATHI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'FH HU', u'JZ ZHANG', u'BL MA', u'LL LIU']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'J ZHAN', u'QH WU', u'C GUO', u'X ZHOU']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'N SAXENA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'AV HUSSELMANN', u'KA HAWICK']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'E CESARO', u'G CZAIKOSKI', u'R GON\xc7ALVES', u'C ALMEIDA', u'S VENSKE', u'J KUK']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'G CHEN', u'X DING']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'R SELVARASU', u'MS KALAVATHI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'RK SAHU', u'S PANDA', u'PC PRADHAN']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'GG WANG', u'S DEB', u'AH GANDOMI', u'Z ZHANG', u'AH ALAVI']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+check is : AH GANDOMI
+[u'Z HU', u'Y BAO', u'R CHIONG', u'T XIONG']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'SP SIMON', u'TFAF LAMBDA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'SM AWAN', u'M ASLAM', u'ZA KHAN', u'A SALEEM']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'R VANITHA']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
+[u'ALW KHALIL']
+[u'XS YANG', u'SSS HOSSEINI', u'AH GANDOMI']
+----------------------------------------
 1
-title: DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition
+title: Development and investigation of efficient artificial bee colony algorithm for numerical function optimization
+Count down: 260
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=0
+[u'D KARABOGA', u'B GORKEMLI', u'C OZTURK', u'N KARABOGA']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Y ZHANG', u'L WU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W GAO', u'S LIU', u'L HUANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'A MOZAFFARI', u'M GORJI-BANDPY', u'TB GORJI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'RV RAO', u'V PATEL']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'WL XIANG', u'MQ AN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'S DAS', u'S BISWAS', u'S KUNDU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Y LI', u'Y WANG', u'B LI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W GAO', u'S LIU', u'L HUANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'F KANG', u'J LI', u'H LI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'SS KIM', u'JH BYEON', u'H LIU', u'A ABRAHAM', u'S MCLOONE']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'G LI', u'P NIU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : P NIU G LI
+[u'F GAO', u'F FEI', u'Q XU', u'Y DENG', u'Y QI', u'I BALASINGHAM']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT', u'VP SINGH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B BABAYIGIT', u'R OZDEMIR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W ZHANG', u'N WANG', u'S YANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'D DING', u'D QI', u'X LUO', u'J CHEN', u'X WANG', u'P DU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W GAO', u'S LIU', u'L HUANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Y XU', u'P FAN', u'L YUAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+Count down: 280
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=20
+[u'JC BANSAL', u'H SHARMA', u'SS JADON']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'D KARABOGA', u'B GORKEMLI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'G LI', u'P NIU', u'C LIU', u'W ZHANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : P NIU G LI
+[u'AG ABRO', u'J MOHAMAD-SALEH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'D KARABOGA', u'B GORKEMLI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'H WANG', u'Z WU', u'S RAHNAMAYAN', u'H SUN', u'Y LIU', u'J PAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'X ZHAO', u'Z LIU', u'X YANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B LI', u'L GONG', u'W YANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W XIANG', u'M AN', u'Y LI', u'R HE', u'J ZHANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'AG ABRO', u'J MOHAMAD-SALEH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B LI', u'Y LI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'M LOZANO', u'A DUARTE', u'F GORT\xc1ZAR', u'R MART\xcd']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'K YU', u'X WANG', u'Z WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'A ABDUL GHANI', u'J MOHAMAD-SALEH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'G LI', u'P NIU', u'W ZHANG', u'Y LIU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : P NIU G LI
+[u'M MERNIK', u'SH LIU', u'D KARABOGA', u'M \u010cREPIN\u0160EK']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'SEK FATEEN', u'A BONILLA-PETRICIOLET']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'R MURUGAN', u'MR MOHAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'G LI', u'P NIU', u'Y MA', u'H WANG', u'W ZHANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : P NIU G LI
+[u'G LI', u'P NIU', u'H WANG', u'Y LIU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : P NIU G LI
+Count down: 300
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=40
+[u'K HANBAY', u'MF TALU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'AG ABRO', u'J MOHAMAD-SALEH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W XIANG', u'S MA', u'M AN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u4efb\u5b50\u6b66\uff0c \u738b\u632f\u534e\uff0c \u5b59\u7acb\u5b81']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Z LI', u'Z ZHOU', u'X SUN', u'D GUO']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'X LI', u'L LU', u'L LIU', u'G LI', u'X GUAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : G LI
+[u'D PRAKASH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u5f20\u65b0\u660e\uff0c \u9b4f\u5cf0\uff0c \u725b\u4e3d\u5e73\uff0c \u738b\u9c9c\u82b3']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT', u'CW AHN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'T KOZA', u'N KARABOGA', u'S KOCKANAT']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'M HASANZADEH', u'S SADEGHI', u'A REZVANIAN', u'MR MEYBODI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u5f20\u94f6\u96ea\uff0c \u7530\u5b66\u6c11\uff0c \u66f9\u7389\u82f9']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'N IMANIAN', u'ME SHIRI', u'P MORADI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT', u'A DEEP']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'R MURUGAN', u'MR MOHAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B LI', u'LG GONG', u'Y LI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'O SAFARZADEH', u'A ZOLFAGHARI', u'M ZANGIAN', u'O NOORI-KALKHORAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'L MA', u'K HU', u'Y ZHU', u'H CHEN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'SK GOUDOS', u'K SIAKAVARA', u'JN SAHALOS']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+Count down: 320
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=60
+[u'Z XIAN', u'J XIE', u'Y WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W GAO', u'B ZHAO', u'GT ZHOU', u'QY WANG', u'CY YU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'J XIAO', u'J ZHOU', u'C LI', u'H XIAO', u'W ZHANG', u'W ZHU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'H GHASHOCHI-BARGH', u'MH SADR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'G GEORGE', u'K RAIMOND']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'OA SAHED', u'K KARA', u'A BENYOUCEF']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'A YURTKURAN', u'E EMEL']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u9ad8\u73ca\uff0c \u5f20\u60e0\u73cd\uff0c \u9a6c\u826f']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u9a6c\u536b \u5b59\u6b63\u5174']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'AG ABRO', u'J MOHAMAD-SALEH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B XING', u'WJ GAO']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B BABAYIGIT', u'R OZDEMIR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'WD CHANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u5f20\u65b0\u660e\uff0c \u674e\u6653\u5b89\uff0c \u4f55\u6587\u6d9b\uff0c \u738b\u9c9c\u82b3']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u845b\u5b87\uff0c \u6881\u9759\uff0c \u738b\u5b66\u5e73\uff0c \u8c22\u5c0f\u5ddd']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'R MURUGAN', u'MR MOHAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'T NIKNAM', u'B BAGHERI', u'MM BONEHKHATER', u'BB FIROUZI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'W GAO', u'FTS CHAN', u'L HUANG', u'S LIU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'S RAGHURAMAN', u'R JEGATHEESAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+Count down: 340
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=80
+[u'N SULAIMAN', u'J MOHAMAD-SALEH', u'AG ABRO']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B BABAYIGIT', u'R OZDEMIR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'X KONG', u'S LIU', u'Z WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'C HE', u'N NOMAN', u'H IBA']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'J YANG', u'WT LI', u'XW SHI', u'Z REN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u90ed\u8d85\u5cf0\uff0c \u674e\u6885\u83b2']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'AG ABRO', u'J MOHAMAD-SALEH']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u738b\u6167\u9896\uff0c \u738b\u6587\u5f6c']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'L ABDELHAKEM-KORIDAK', u'M RAHLI', u'FZ BENAYED']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'H ZHANG', u'DY YE']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'H GHASHOCHI-BARGH', u'MH SADR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u9ad8\u73ca\uff0c \u9a6c\u826f\uff0c \u5f20\u60e0\u73cd']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'R XIAO', u'Y WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'G LI', u'P NIU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+check is : P NIU G LI
+[u'AA LIU', u'S MCLOONE']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'H HAKLI', u'H U\u011eUZ']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u738b\u8363\u6770\uff0c \u8a79\u5b9c\u5de8\uff0c \u5468\u6d77\u5cf0\uff0c \u8521\u5e86\u73b2']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u015e AKPINAR', u'A BAYKASO\u011eLU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'S BABAEIZADEH', u'R AHMAD']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'KN DAS', u'B CHAUDHUR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+Count down: 360
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=100
+[u'WF GAO', u'LL HUANG', u'SY LIU', u'C DAI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'YX ZHANG', u'XM TIAN', u'YP CAO']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'A KHAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Y YI', u'R HE']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Y XUE', u'S ZHONG', u'T MA', u'J CAO']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'MH TSAI', u'MY CHEN', u'SG HUANG', u'YC HUNG', u'HC WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B LI']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'R ZHANG', u'Z WANG', u'H ZHANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'SC HORNG', u'FY YANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'Y XUE', u'Y ZHUANG', u'Y HUO', u'H ZHU']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'X KONG', u'S LIU', u'Z WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'TK SHARMA', u'M PANT']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'\u5f20\u65b0\u660e\uff0c \u51af\u68a6\u6e05\uff0c \u5c39\u6b23\u6b23\uff0c \u6bb5\u65b0\u6d9b']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'B BABAYI\u011eIT', u'R \xd6ZDEMIR']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'H SUN', u'X SHI', u'J ZHAO', u'H WANG']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'A BANITALEBI', u'MIA AZIZ', u'A BAHAR', u'ZA AZIZ']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'X ZHOU', u'Z WU', u'H WANG', u'S RAHNAMAYAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'NH ABBAS', u'HS AFTAN']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+[u'E EMEL']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+Count down: 380
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=20&cstart=120
+[u'\u5f20\u6676\uff0c \u6f58\u6709\u987a']
+[u'G LI', u'P NIU', u'X XIAO']
+----------------------------------------
+1
+title: A review on the design and optimization of interval type-2 fuzzy controllers
+Count down: 400
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=0
+[u'SM CHEN', u'CY WANG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'W PEDRYCZ', u'W HOMENDA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'H ISHIBUCHI', u'S MIHARA', u'Y NOJIMA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'E YESIL']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'S GREENFIELD', u'F CHICLANA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K SUBRAMANIAN', u'AK DAS', u'S SUNDARAM', u'S RAMASAMY']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'H MO', u'FY WANG', u'M ZHOU', u'R LI', u'Z XIAO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'JM MENDEL']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'HR HASSANZADEH', u'MR AKBARZADEH-T', u'A AKBARZADEH', u'A REZAEI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'CH LEE', u'FY CHANG', u'CM LIN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'C LI', u'G ZHANG', u'J YI', u'M WANG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'G LI', u'P NIU', u'C LIU', u'W ZHANG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'Y BI', u'D SRINIVASAN', u'X LU', u'Z SUN', u'W ZENG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K SUBRAMANIAN', u'R SAVITHA', u'S SURESH']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'L AMADOR-ANGULO', u'O CASTILLO', u'M PULIDO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'L LIVI', u'H TAHAYORI', u'A SADEGHIAN', u'A RIZZI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'Z SUN', u'N WANG', u'D SRINIVASAN', u'Y BI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'X YANG', u'L WU', u'HK LAM', u'X SU']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+Count down: 420
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=20
+[u'Y MALDONADO', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'SF MOLAEEZADEH', u'MH MORADI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR', u'H HAGRAS']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'SM CHEN', u'LW LEE', u'VRL SHEN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K SUBRAMANIAN', u'R SAVITHA', u'S SURESH']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'T KUMBASAR', u'I EKSIN', u'M GUZELKAYA', u'E YESIL']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'M CASTA\xd1\xd3N-PUGA', u'JR CASTRO', u'JM FLORES-PARRA', u'CG GAXIOLA-PACHECO', u'...']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RA ALIEV', u'AV ALIZADEH', u'OH HUSEYNOV']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'AM EL-NAGAR', u'M EL-BARDINI', u'NM EL-RABAIE']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RE PRECUP', u'RC DAVID', u'EM PETRIU', u'S PREITL', u'MB R\u0102DAC']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'Y MALDONADO', u'O CASTILLO', u'P MELIN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'AM EL-NAGAR', u'M EL-BARDINI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'LT NGO', u'DS MAI', u'MU NGUYEN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RE PRECUP', u'HI FILIP', u'MB R\u0102DAC', u'EM PETRIU', u'S PREITL', u'CA DRAGO\u015e']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'CF JUANG', u'CY CHEN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'LT NGO', u'DD NGUYEN', u'CM LUONG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'J MENDEL', u'H HAGRAS', u'WW TAN', u'WW MELEK', u'H YING']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+Count down: 440
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=40
+[u'C LI', u'J YI', u'G ZHANG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'AS KOSHIYAMA', u'MMBR VELLASCO', u'R TANSCHEIT']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR', u'E YESIL', u'O KARASAKAL']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'AM EL-NAGAR', u'M EL-BARDINI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR', u'H HAGRAS']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'L CERVANTES', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'M LOUDINI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'CL CHEN', u'SC CHEN', u'YH KUO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'Y BI', u'D SRINIVASAN', u'X LU', u'Z SUN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'S GREENFIELD', u'F CHICLANA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'HM FAYEK', u'I ELAMVAZUTHI', u'N PERUMAL', u'B VENKATESH']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'AD TORSHIZI', u'MHF ZARANDI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'CW LO', u'KL WU', u'YC LIN', u'JS LIU']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'R AMAR', u'H MUSTAPHA', u'T MOHAMED']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'L AMADOR-ANGULO', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'Z LI', u'Z QIN', u'Z WU', u'S LI', u'Y ZHANG', u'M DONG', u'W FAN', u'J WANG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'NN MOHAJERI', u'MBN SISTANI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'SD NGUYEN', u'SB CHOI', u'QH NGUYEN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+Count down: 460
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=60
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'RE PRECUP', u'MC SABAU', u'EM PETRIU']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K RAJAGOPAL', u'L PONNUSAMY']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RE PRECUP', u'P ANGELOV', u'BSJ COSTA', u'M SAYED-MOUCHAWEH']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'MF DODURKA', u'T KUMBASAR', u'A SAKALLI', u'E YESIL']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'J QIN', u'X LIU', u'W PEDRYCZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'LC GONZALEZ-SUA', u'O BARRON', u'R SOTO', u'L GARRIDO', u'I GONZALEZ', u'JL GORDILLO', u'...']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K SUBRAMANIAN', u'S SURESH']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'HJ KWAK', u'DW KIM', u'GT PARK']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'AM EL-NAGAR', u'M EL-BARDINI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'Z SUN', u'N WANG', u'Y BI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'WS YU', u'HS CHEN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'N BAKLOUTI', u'AM ALIMI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'C LI', u'G ZHANG', u'J YI', u'M WANG']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RE PRECUP', u'RC DAVID', u'AI STINEAN', u'MB RADAC', u'EM PETRIU']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'L CERVANTES', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'CW LO', u'KL WU', u'JS LIU']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K SABAHI', u'S GHAEMI', u'S PEZESHKI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'D HIDALGO', u'P MELIN', u'O MENDOZA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+Count down: 480
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=80
+[u'MJ MAHMOODABADI', u'M BISHEBAN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'L AMADOR-ANGULO', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'N NASRI MOHAJERI', u'MB NAGHIBI SISTANI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'MRV SANTHI', u'KR SUDHA', u'MCHR KUMAR']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'LC GONZALEZ-SUA', u'I GONZALEZ', u'L GARRIDO', u'R SOTO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RC DAVID', u'RE PRECUP', u'EM PETRIU', u'S PREITL', u'MB R\u0102DAC', u'LO FEDOROVICI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'A MARIAJAYAPRAKASH', u'T SENTHILVELAN', u'R GNANADASS']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'S HAN', u'X LIU']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'YY LIN', u'JY CHANG', u'CT LIN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'V JEYALAKSHMI', u'P SUBBURAJ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'RV SANTHI', u'KR SUDHA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'BK SAHU', u'S PATI', u'PK MOHANTY', u'S PANDA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'H ISHIBUCHI', u'Y NOJIMA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR', u'H HAGRAS']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'A NAQVI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'F GAXIOLA', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN
+[u'D PAMU\u010cAR']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'MHF ZARANDI', u'R GAMASAEE']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+Count down: 500
+sleeping for an hour now: 09:53:09.983505
+sleep over at: 10:08:10.069607
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=100
+[u'G HASANIFARD', u'AA GHARAVEISI', u'MA VALI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'CK KIM', u'D CHWA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'K SUBRAMANIAN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'JC ROMERO', u'M GARC\xcdA-VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'RV SANTHI', u'KR SUDHA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'O CASTILLO', u'L CERVANTES', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'JM FLORES\u2013PARRA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'T KUMBASAR']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'E CELIK', u'M GUL', u'N AYDIN', u'AT GUMUS', u'AF GUNERI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'L CERVANTES', u'O CASTILLO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : O CASTILLO
+[u'F OLIVAS', u'F VALDEZ', u'O CASTILLO', u'P MELIN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'SD NGUYEN', u'SB CHOI', u'QH NGUYEN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'MD SCHRIEBER', u'M BIGLARBEGIAN']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'SM DARWISH', u'TF MABROUK', u'YF MOKHTAR']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'S GREENFIELD', u'F CHICLANA']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'CJ HUANG', u'YW WANG', u'HM CHEN', u'HW TSAI', u'JJ JIAN', u'AL CHENG', u'JJ LIAO']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'G HASSANIFARD']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'O CASTILLO', u'L CERVANTES', u'P MELIN', u'F VALDEZ']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+check is : P MELIN O CASTILLO
+[u'SD NGUYEN', u'SB CHOI']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+[u'AS KOSHIYAMA', u'MMBR VELLASCO', u'R TANSCHEIT']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+Count down: 20
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=21&cstart=120
+[u'AS KOSHIYAMA', u'T ESCOVEDO', u'MMBR VELLASCO', u'R TANSCHEIT']
+[u'O CASTILLO', u'P MELIN']
+----------------------------------------
+1
+title: Sustainable supplier selection: A ranking model based on fuzzy inference system
+Count down: 40
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=32&cstart=0
+[u'J CHAI', u'JNK LIU', u'EWT NGAI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'FRL JUNIOR', u'L OSIRO', u'LCR CARPINETTI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'CM WU', u'CL HSIEH', u'KL CHANG']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A EKICI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'FR LIMA', u'L OSIRO', u'LCR CARPINETTI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'M RAZANI', u'A YAZDANI-CHAMZINI', u'SH YAKHCHALI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'AH AZADNIA', u'P GHADIMI', u'MZM SAMAN', u'KY WONG', u'C HEAVEY']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'AH AZADNIA', u'MZM SAMAN', u'KY WONG', u'P GHADIMI', u'N ZAKUAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S SINGH', u'EU OLUGU', u'A FALLAHPOUR']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'L OSIRO', u'FR LIMA-JUNIOR', u'LCR CARPINETTI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'P GHADIMI', u'C HEAVEY']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'F TAHRIRI', u'M MOUSAVI', u'SH HAGHIGHI', u'SZM DAWAL']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'J REN', u'BK SOVACOOL']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'G \xd6ZKAN', u'M \u0130NAL']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A AMINDOUST', u'A SHAMSUDDIN', u'A SAGHAFINIA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+check is : A SAGHAFINIA A AMINDOUST
+[u'MR MEHREGAN', u'SH HASHEMI', u'A KARIMI', u'B MERIKHI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'AK KAR']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'AH AZADNIA', u'MZM SAMAN', u'KY WONG']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'V MANI', u'R AGARWAL', u'V SHARMA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A SAGHAFINIA', u'HW PING', u'MN UDDIN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+check is : A SAGHAFINIA
+Count down: 60
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=32&cstart=20
+[u'A AMINDOUST', u'A SAGHAFINIA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+check is : A SAGHAFINIA A AMINDOUST
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+check is : A SAGHAFINIA S AHMED A AMINDOUST
+[u'CW TSUI', u'GH TZENG', u'UP WEN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'IE NIELSEN', u'N BANAEIAN', u'P GOLI\u0143SKA', u'H MOBLI', u'M OMID']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'M AZADI', u'M JAFARIAN', u'RF SAEN', u'SM MIRHEDAYATIAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'DN KAZIOLAS', u'I ZYGOMALAS', u'GE STAVROULAKIS', u'D EMMANOULOUDIS', u'...']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'SH HASHEMI', u'A KARIMI', u'M TAVANA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A ISHIZAKA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'SE OMOSIGHO', u'DEA OMOROGBE']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'LG BENG', u'O BADRUL']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'GA KESKIN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'J CHAI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'M ASGHARI', u'SJ ABRISHAMI', u'I BOJNOURD']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'SI MARI', u'YH LEE', u'MS MEMON']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'CW TSUI', u'UP WEN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'M ABBASI', u'R HOSNAVI', u'B TABRIZI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'Q YU', u'F HOU']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'N MEGHANATHAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'D SIMI\u0106', u'V SVIR\u010cEVI\u0106', u'S SIMI\u0106']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'M ASGHARI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+Count down: 80
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=32&cstart=40
+[u'MR GALANKASHI', u'A CHEGENI', u'A SOLEIMANYNANADEGANY', u'A MEMARI', u'...']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+check is : A SAGHAFINIA S AHMED A AMINDOUST
+[u'I ORJI', u'S WEI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'FR LIMA JUNIOR', u'LCR CARPINETTI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'FRL JUNIOR', u'L OSIRO', u'LCR CARPINETTI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A AMINDOUST', u'A SAGHAFINIA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+check is : A SAGHAFINIA A AMINDOUST
+[u'DA PURYONO']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'HA ZUBAR', u'P PARTHIBAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'\u5218\u6653\u519b\uff0c \u502a\u4e2d\u534e\uff0c \u6768\u7ae0\u7fa4']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'\u06a9\u0627\u0638\u0645\u06cc', u'\u0639\u0644\u06cc\u0632\u0627\u062f\u0647 \u0632\u0648\u0627\u0631\u0645']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'R VILLANUEVA-PONCE', u'JL GARCIA-ALCARAZ', u'G CORTES-ROBLES', u'...']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'H SHIROUYEHZAD', u'SM ANVARI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'F \xd6Z\xc7EL\u0130K', u'BA \xd6ZT\xdcRK']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'E ESCRIG-OLMEDO', u'M\xc1 FERN\xc1NDEZ-IZQUIERDO', u'...']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'DN KAZIOLAS', u'GE STAVROULAKIS', u'I ZYGOMALAS', u'...']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'SI MARI', u'YH LEE', u'MS MEMON']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'SI MARI', u'YH LEE', u'MS MEMON']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'C SU', u'DJ HORNG', u'ML TSENG', u'ASF CHIU', u'KJ WU', u'HP CHEN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'FRL JUNIOR', u'HR PASSERI', u'LCR CARPINETTI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'D SIMI\u0106', u'V SVIR\u010cEVI\u0106', u'S SIMI\u0106']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
 Count down: 100
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=3&cstart=0
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=32&cstart=60
+[u'M ASHRAFI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'AA MAHMUDI', u'A FATKHUDIN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S SINGH', u'EU OLUGU', u'SN MUSA', u'AB MAHAT']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'JGV VIEIRA', u'RC MERGULH\xc3O']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A RODR\xcdGUEZ']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'B R\u0118BIASZ', u'A MACIO\u0141']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'P OFLUO\u011eLU', u'B M\u0130RAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'P OFLUO\u011eLU', u'B M\u0130RAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'WHW MAHMOOD', u'R TUKIMIN', u'MR MUHAMAD', u'MZ YUSUP']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'BA \xd6ZT\xdcRK', u'F \xd6Z\xc7ELIK']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'Z SUN\uff0c \u5b59\u54f2']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'B \xd6ZTAYS\xdfI', u'M IS\xdfIK']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S HEMALATHA', u'KR BABU', u'KN RAO', u'K VENKATASUBBAIAH']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'LCR CARPINETTI', u'FRL JUNIOR']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'B \xd6ZTAY\u015eI', u'M I\u015eIK']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'M ULUSKAN']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'VO OLADOKUN', u'DI OYEWOLE']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'A AMIRI', u'H BAHRAMZADE']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'MR MEHREGAN', u'AJ CHAGHOOSHI', u'SH HASHEMI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S VINODH', u'K JAYAKRISHNA', u'KEK VIMAL']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
 Count down: 120
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=3&cstart=20
-Count down: 140
-fetching all 20 cited papers from: /citations?hl=en&venue=lQI3yXVEiigJ.2015&view_op=hcore_citedby&hcore_pos=3&cstart=40
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=32&cstart=80
+[u'IMJ ORJI', u'S WEI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'AK KAR']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'E ESCRIG-OLMEDO', u'MJ MU\xd1OZ-TORRES', u'M\xc1 FERN\xc1NDEZ-IZQUIERDO', u'...']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'MM KHAH', u'A BIDOKHTI', u'M ZAREEI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'SK CHAHARSOOGHI', u'M ASHRAFI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'N SOEBANDRIJA', u'K EDI', u'RD BAITY', u'C CONGRONEGORO']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S SINRAT', u'W ATTHIRAWONG']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S LI', u'S OKOROAFO', u'B GAMMOH']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'MM SOLIS', u'JLG ALCARAZ', u'VAC BALLESTER', u'AM MACIAS']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'F \xd6Z\xc7EL\u0130K', u'BA \xd6ZT\xdcRK']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'J REN', u'A MANZARDO', u'A MAZZI', u'F ZULIANI', u'A SCIPIONI']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'C GARC\xcdA-DI\xc9GUEZ', u'M HERVA', u'E ROCA']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+[u'S HAMDAN', u'A CHEAITOU']
+[u'A AMINDOUST', u'S AHMED', u'A SAGHAFINIA', u'A BAHREININEJAD']
+----------------------------------------
+1
+title: Hybrid Taguchi-differential evolution algorithm for optimization of multi-pass turning operations
+Count down: 160
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=41&cstart=0
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'SS MAHAPATRA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'L RACHMAWATI', u'K TAI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'K TAI', u'AK GUPTA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Y YIN', u'M LIU', u'TCE CHENG', u'CC WU', u'SR CHENG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Z WAN', u'L MAO', u'G WANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'A GARG', u'K TAI', u'S BARONTINI', u'A STOKES']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'PM SINGRU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'K TAI', u'V VIJAYARAGHAVAN', u'PM SINGRU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M GHASEMI', u'MM GHANBARIAN', u'S GHAVIDEL', u'S RAHMANI', u'EM MOGHADDAM']
+[u'AR YILDIZ']
+----------------------------------------
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR JORDEHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Y YIN', u'WH WU', u'WH WU', u'CC WU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'N SENTHILKUMAR', u'T TAMIZHARASAN', u'S GOBIKANNAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'A GARG', u'JSL LAM']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 180
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=41&cstart=20
+[u'X LI', u'M YIN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'P DASH', u'LC SAIKIA', u'N SINHA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'P SAVSANI', u'RL JHALA', u'V SAVSANI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'RK PANDEY', u'SS PANDA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'PM SINGRU', u'L GAO', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A DEL PRETE', u'T PRIMO', u'R FRANCHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Q LONG', u'W ZHANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'KZ GAO', u'PN SUGANTHAN', u'QK PAN', u'TJ CHUA', u'TX CAI', u'CS CHONG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'D WANG', u'C QUEK', u'GS NG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'H BOUCHEKARA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'RD KOYEE', u'U HEISEL', u'R EISSELER', u'S SCHMAUDER']
+[u'AR YILDIZ']
+----------------------------------------
+[u'CW FONG', u'H ASMUNI', u'B MCCOLLUM', u'P MCMULLAN', u'S OMATU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'GJ BESSERIS']
+[u'AR YILDIZ']
+----------------------------------------
+[u'P CHAUHAN', u'M PANT', u'K DEEP']
+[u'AR YILDIZ']
+----------------------------------------
+[u'K LU', u'M JING', u'X ZHANG', u'H LIU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'H PASHAZADEH', u'Y GHEISARI', u'M HAMEDI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'J XIAO', u'J ZHOU', u'C LI', u'H XIAO', u'W ZHANG', u'W ZHU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'E MIRSADEGHI', u'MS PANAHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'TO OWOLABI', u'KO AKANDE', u'SO OLATUNJI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'H SARUHAN']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 200
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=41&cstart=40
+[u'M FARHOODNEA', u'A MOHAMED', u'H SHAREEF', u'H ZAYANDEHROODI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'SP REGALLA', u'MC TSAI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'WT SUNG', u'KY CHANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'I BRAJEVIC']
+[u'AR YILDIZ']
+----------------------------------------
+[u'IG ESCAMILLA-SALAZAR', u'LM TORRES-TREVI\xd1O', u'B GONZ\xc1LEZ-ORT\xcdZ', u'PC ZAMBRANO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'D GOSWAMI', u'S CHAKRABORTY']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'A GARG', u'K TAI', u'S SREEDEEP']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Y KAO', u'CC CHEN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'I IDRIS', u'A SELAMAT', u'S OMATU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'J GOU', u'WP GUO', u'F HOU', u'C WANG', u'YQ CAI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'S SAEIDI', u'M SOLIMANPUR', u'I MAHDAVI', u'N JAVADIAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'GH GOWD', u'MG REDDY', u'B SREENIVASULU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'XN SHEN', u'X YAO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'K LU', u'M JING', u'X ZHANG', u'G DONG', u'H LIU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'XH HAN', u'L QUAN', u'XY XIONG', u'B WU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'KO AKANDE', u'SO OLATUNJI', u'TO OWOLABI', u'AA ABDULRAHEEM']
+[u'AR YILDIZ']
+----------------------------------------
+[u'PV PAUL', u'N MOGANARANGAN', u'SS KUMAR', u'R RAJU', u'T VENGATTARAMAN', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'J WILLIAMS']
+[u'AR YILDIZ']
+----------------------------------------
+[u'WA YANG', u'W ZHOU', u'W LIAO', u'Y GUO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'S NE\u015eEL\u0130', u'E T\xdcRKE\u015e']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 220
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=41&cstart=60
+[u'YT JOU', u'WT LIN', u'WC LEE', u'TM YEH']
+[u'AR YILDIZ']
+----------------------------------------
+[u'N PHOLDEE', u'WW PARK', u'DK KIM', u'YT IM', u'S BUREERAT', u'HC KWON', u'MS CHUN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'K YU', u'X WANG', u'Z WANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'F TAO', u'L ZHANG', u'Y LAILI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'WK MASHWANI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'T WANG', u'LI WANG', u'Y WANG', u'X ZOU', u'F GUO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'H PENG', u'Z WU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'MFF AB RASHID', u'NMZ MOHAMED', u'AN ROSE', u'SA GHANI', u'WS HARUN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'SH AGHDEAB', u'LA MOHAMMED', u'AM UBAID']
+[u'AR YILDIZ']
+----------------------------------------
+[u'MA MELLAL', u'EJ WILLIAMS']
+[u'AR YILDIZ']
+----------------------------------------
+[u'\u5f20\u6b63\u65fa\uff0c \u674e\u7231\u5e73\uff0c \u9c8d\u8fdb\uff0c \u5218\u96ea\u6885']
+[u'AR YILDIZ']
+----------------------------------------
+[u'P VICTER PAUL', u'N MOGANARANGAN', u'SS KUMAR', u'R RAJU', u'T VENGATTARAMAN', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V BASETTI', u'AK CHANDEL']
+[u'AR YILDIZ']
+----------------------------------------
+[u'\u4f55\u5ef7\u5e74\uff0c \u674e\u6653\u7ea2\uff0c \u848b\u82b8']
+[u'AR YILDIZ']
+----------------------------------------
+[u'X SHI', u'L QIAO', u'Z ZHU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'JSL LAM']
+[u'AR YILDIZ']
+----------------------------------------
+[u'T GANESAN', u'I ELAMVAZUTHI', u'P VASANT']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M SORTINO', u'S BELFIO', u'G TOTIS', u'L DI GASPERO', u'M NALI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'AA SALMAN', u'I AHMAD', u'MGH OMRAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'B GARC\xcdA-DOMINGO', u'CJ CARMONA', u'AJ RIVERA-RIVAS', u'MJ DEL JESUS', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 240
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=41&cstart=80
+[u'M REISI-NAFCHI', u'G MOSLEHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'\u8c22\u4e66\u7ae5\uff0c \u90ed\u9690\u5f6a']
+[u'AR YILDIZ']
+----------------------------------------
+1
+title: Honey bee behavior inspired load balancing of tasks in cloud computing environments
+Count down: 260
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=46&cstart=0
+[u'T DESAI', u'J PRAJAPATI']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S MISRA', u'PV KRISHNA', u'K KALAISELVAN', u'V SARITHA', u'MS OBAIDAT']
+[u'PV KRISHNA']
+----------------------------------------
+check is : PV KRISHNA
+[u'RG RAJAN', u'V JEYAKRISHNAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S MISRA', u'A SINGH', u'S CHATTERJEE', u'MS OBAIDAT']
+[u'PV KRISHNA']
+----------------------------------------
+[u'E PACINI', u'C MATEOS', u'CG GARINO']
+[u'PV KRISHNA']
+----------------------------------------
+[u'SS KIM', u'JH BYEON', u'H YU', u'H LIU']
+[u'PV KRISHNA']
+----------------------------------------
+[u'NJ NAVIMIPOUR', u'AM RAHMANI', u'AH NAVIN', u'M HOSSEINZADEH']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u9648\u6ce2 \u5f20\u66e6\u714c']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u6b66\u5c0f\u5e74\uff0c \u9093\u68a6\u7434\uff0c \u5f20\u660e\u73b2\uff0c \u66fe\u5175']
+[u'PV KRISHNA']
+----------------------------------------
+[u'J UMA', u'V RAMASAMY', u'A KALEESWARAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'LD DHINESH BABU', u'A GUNASEKARAN', u'PV KRISHNA']
+[u'PV KRISHNA']
+----------------------------------------
+check is : PV KRISHNA
+[u'I GANGWAR', u'P RANA']
+[u'PV KRISHNA']
+----------------------------------------
+[u'RP LINGAWAR', u'MV SRODE', u'MM GHONGE']
+[u'PV KRISHNA']
+----------------------------------------
+[u'RC GREEN', u'L WANG', u'M ALAM', u'C SINGH']
+[u'PV KRISHNA']
+----------------------------------------
+[u'D KASHYAP', u'J VIRADIYA']
+[u'PV KRISHNA']
+----------------------------------------
+[u'I ANGHEL', u'M BERTONCINI', u'T CIOARA', u'M CUPELLI', u'V GEORGIADOU', u'P JAHANGIRI', u'...']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u50a8\u96c5\uff0c \u9a6c\u5ef7\u6dee\uff0c \u8d75\u7acb\u6210']
+[u'PV KRISHNA']
+----------------------------------------
+[u'R DEVI', u'E BARLASKAR', u'O DEVI', u'S MEDHI', u'R SHIMRAY']
+[u'PV KRISHNA']
+----------------------------------------
+[u'H ALIPOUR', u'Y LIU', u'A HAMOU-LHADJ']
+[u'PV KRISHNA']
+----------------------------------------
+[u'O SEFRAOUI', u'M AISSAOUI', u'M ELEULDJ']
+[u'PV KRISHNA']
+----------------------------------------
+Count down: 280
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=46&cstart=20
+[u'E PACINI', u'C MATEOS', u'CG GARINO']
+[u'PV KRISHNA']
+----------------------------------------
+[u'T MA', u'Y CHU', u'L ZHAO', u'O ANKHBAYAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'R RAMYA', u'M KRIUSHANTH', u'L AROCKIAM']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S HUNT', u'Q MENG', u'C HINDE', u'T HUANG']
+[u'PV KRISHNA']
+----------------------------------------
+[u'R SOMANI', u'J OJHA']
+[u'PV KRISHNA']
+----------------------------------------
+[u'T DOKEROGLU', u'MA BAYIR', u'A COSAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'A ADITYA', u'U CHATTERJEE', u'S GUPTA']
+[u'PV KRISHNA']
+----------------------------------------
+[u'SA ANJUM', u'SK ZAHAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S GUPTA', u'I KASHYAP']
+[u'PV KRISHNA']
+----------------------------------------
+[u'P PANDEY', u'PV KRISHNA', u'B SAROJINI']
+[u'PV KRISHNA']
+----------------------------------------
+check is : PV KRISHNA
+[u'\u9ec4\u4fca\uff0c \u738b\u5e86\u51e4\uff0c \u5218\u5fd7\u52e4\uff0c \u738b\u8000\u5f6c']
+[u'PV KRISHNA']
+----------------------------------------
+[u'N PATIL', u'T KANADE', u'P SONONE', u'P LONDHE', u'K KIMMATKAR', u'A MANE', u'...']
+[u'PV KRISHNA']
+----------------------------------------
+[u'A SONI', u'G VISHWAKARMA', u'YK JAIN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S KARUMANCHI', u'CK RAO']
+[u'PV KRISHNA']
+----------------------------------------
+[u'AA JAISWAL', u'S JAIN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u5f20\u7231\u79d1\uff0c \u8c22\u7fe0\u5170']
+[u'PV KRISHNA']
+----------------------------------------
+[u'A BOUYER']
+[u'PV KRISHNA']
+----------------------------------------
+[u'E PACINI', u'C MATEOS', u'CG GARINO']
+[u'PV KRISHNA']
+----------------------------------------
+[u'MA BABY', u'JS RAJ']
+[u'PV KRISHNA']
+----------------------------------------
+[u'ED RAJ', u'LDD BABU']
+[u'PV KRISHNA']
+----------------------------------------
+Count down: 300
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=46&cstart=40
+[u'G SONIA', u'K NARAYANA', u'B SANGAMITHRA']
+[u'PV KRISHNA']
+----------------------------------------
+[u'I DE FALCO', u'E LASKOWSKI', u'R OLEJNIK', u'U SCAFURI', u'E TARANTINO', u'M TUDRUJ']
+[u'PV KRISHNA']
+----------------------------------------
+[u'MM RANA', u'S BILGAIYAN', u'U KAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u7f57\u6d69\u5b87\uff0c \u9648\u65fa\u864e']
+[u'PV KRISHNA']
+----------------------------------------
+[u'P DHORE', u'K KOLHE']
+[u'PV KRISHNA']
+----------------------------------------
+[u'RK PATIL', u'BS MURUGAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'V TYAGI', u'T KUMAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'VV KUMAR', u'MR REVATHI', u'PG SCHOLAR', u'MMN RAJKUMAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'M POULOSE', u'M AZATH']
+[u'PV KRISHNA']
+----------------------------------------
+[u'GN REDDY', u'SP KUMAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u5218\u4e9a\u79cb\uff0c \u8d75\u9752\u534e\uff0c \u666f\u7ef4\u9e4f']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S TUNDELE', u'A MARU']
+[u'PV KRISHNA']
+----------------------------------------
+[u'\u5170\u6587\u59d7\uff0c \u9648\u51ac\u6797\uff0c \u674e\u4f1f\uff0c \u9102\u96ea\u59ae']
+[u'PV KRISHNA']
+----------------------------------------
+[u'H GUPTA', u'K SAHU']
+[u'PV KRISHNA']
+----------------------------------------
+[u'N JAFARI NAVIMIPOUR', u'AM RAHMANI', u'A HABIBIZAD NAVIN', u'M HOSSEINZADEH']
+[u'PV KRISHNA']
+----------------------------------------
+[u'RS MOORTHY', u'TS SOMASUNDARAM', u'K GOVINDARAJAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'M GUZEK', u'P BOUVRY', u'EG TALBI']
+[u'PV KRISHNA']
+----------------------------------------
+[u'SP JADHAV', u'PR DESHPANDE']
+[u'PV KRISHNA']
+----------------------------------------
+[u'M HABIBA', u'MR ISLAM']
+[u'PV KRISHNA']
+----------------------------------------
+[u'JP NIVASH', u'ED RAJ', u'LD BABU', u'M NIRMALA']
+[u'PV KRISHNA']
+----------------------------------------
+Count down: 320
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=46&cstart=60
+[u'JS PAN', u'H WANG', u'H ZHAO', u'L TANG']
+[u'PV KRISHNA']
+----------------------------------------
+[u'K RAMBABU', u'MC SEKHAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S SANKAR', u'D DATH']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S BILGAIYAN', u'S SAGNIKA', u'S MISHRA', u'M DAS']
+[u'PV KRISHNA']
+----------------------------------------
+[u'G SURYADEVI', u'D VIJAYAKUMAR', u'R SABARIMUTHUKUMAR']
+[u'PV KRISHNA']
+----------------------------------------
+[u'E DENI RAJ', u'JP NIVASH', u'M NIRMALA', u'LD DHINESH BABU']
+[u'PV KRISHNA']
+----------------------------------------
+[u'VV RAMANA', u'ARM REDDY']
+[u'PV KRISHNA']
+----------------------------------------
+[u'MPN LADDHAD', u'N RAUT']
+[u'PV KRISHNA']
+----------------------------------------
+[u'DDH MIRIAM', u'B PRABHA', u'JF LILIAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'VS KUSHWAH', u'SK GOYAL', u'P NARWARIYA']
+[u'PV KRISHNA']
+----------------------------------------
+[u'TSK REDDY', u'PV KRISHNA', u'PC REDDY']
+[u'PV KRISHNA']
+----------------------------------------
+check is : PV KRISHNA
+[u'S GUPTA', u'I KASHYAP']
+[u'PV KRISHNA']
+----------------------------------------
+[u'A TESKE', u'R FALCON', u'A NAYAK']
+[u'PV KRISHNA']
+----------------------------------------
+[u'JP NIVASH', u'LDD BABU', u'ED RAJ', u'M NIRMALA', u'JS MOSES']
+[u'PV KRISHNA']
+----------------------------------------
+[u'R MADHUMATHI', u'R RADHAKRISHNAN']
+[u'PV KRISHNA']
+----------------------------------------
+[u'OB HASSAN', u'AS AHMAD']
+[u'PV KRISHNA']
+----------------------------------------
+[u'P TAKAKO ENDO', u'MS BATISTA', u'GE GONCALVES', u'M RODRIGUES', u'D SADOK', u'...']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S SOHRABI', u'I MOSER']
+[u'PV KRISHNA']
+----------------------------------------
+[u'Z QU', u'J ZANG', u'L WANG', u'H SUN', u'Y WANG']
+[u'PV KRISHNA']
+----------------------------------------
+[u'S KAUR', u'S KINGER']
+[u'PV KRISHNA']
+----------------------------------------
+1
+title: The induced generalized aggregation operators for intuitionistic fuzzy sets and their application in group decision making
+Count down: 340
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=52&cstart=0
+[u'G WEI', u'X ZHAO', u'R LIN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S WAN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'G WEI', u'H WANG', u'X ZHAO', u'R LIN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : H WANG
+[u'TY CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'X ZHAO', u'R LIN', u'G WEI']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Z ZHANG', u'C WANG', u'D TIAN', u'K LI']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Z YUE', u'Y JIA']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'JM MERIG\xd3', u'M CASANOVAS', u'JB YANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S WIBOWO', u'H DENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'JM MERIG\xd3', u'Y XU', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU
+[u'J MART NEZ-MORENO']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Z YUE', u'Y JIA']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'H CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'H CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Z YUE']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W SU', u'W PENG', u'S ZENG', u'B PENG', u'T PAN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S ZENG', u'T BALEZENTIS', u'J CHEN', u'G LUO']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'X ZHAO', u'S TANG', u'S YANG', u'K HUANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+Count down: 360
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=52&cstart=20
+[u'X QI', u'C LIANG', u'J ZHANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S ZHANG', u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Y XU', u'Y LI', u'H WANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU H WANG
+[u'JM MERIG\xd3', u'M CASANOVAS', u'D PALACIOS-MARQU\xc9S']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W SU', u'W LI', u'S ZENG', u'C ZHANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'TY CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'Z TAO', u'H CHEN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'F MENG', u'H CHENG', u'Q ZHANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Y XU', u'R PATNAYAKUNI', u'H WANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU H WANG
+[u'G ZHONG', u'L XU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'Z TAO', u'H CHEN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S HUSAIN', u'Y AHMAD', u'MA ALAM']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L WANG', u'M NI', u'Z YU', u'L ZHU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W HUIMIN', u'MM JOS\xc9']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'Z TAO', u'H CHEN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Y XU', u'H WANG', u'JM MERIG\xd3']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU H WANG
+[u'B LIU', u'Y SHEN', u'X CHEN', u'H SUN', u'Y CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'SP WAN', u'JY DONG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+Count down: 380
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=52&cstart=40
+[u'F WANG', u'S ZENG', u'C ZHANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'P SINGH', u'M VERMA', u'A KUMAR']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'J QIN', u'X LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'M AGGARWAL']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W LI', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'J WU', u'H CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'X ZHAO', u'S YANG', u'Y ZHOU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Y AHMAD', u'S HUSAIN', u'IS ASTHANVI']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'PMC BUSH']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'Y ZHOU', u'X LIU', u'H CHEN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Z SHOUZHEN', u'W QIFENG', u'JM MERIG\xd3', u'P TIEJUN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'P WU', u'C FU', u'H CHEN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W PEI', u'W JIAN-QIANG', u'Z HONG-YU', u'C XIAO-HONG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W SU', u'S ZENG', u'X YE']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'AM GIL-LAFUENTE', u'XU YEJUN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'M SUN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'S CHEN', u'Z MU', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'D CHAKRABORTY', u'DK JANA', u'TK ROY']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'JM MERIGO', u'M CASANOVAS', u'Y XU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU
+Count down: 400
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=52&cstart=60
+[u'B PENG', u'C YE', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Y XU', u'H WANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU H WANG
+[u'S WIBOWO', u'H DENG', u'X ZHANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Y XU', u'H WANG', u'H SUN', u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+check is : Y XU H WANG
+[u'L ZHOU', u'Y HE', u'H CHEN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'Z MA', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'C ZHANG', u'W SU', u'S ZENG', u'L ZHANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W SU', u'C ZHANG', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'\u845b\u6d9b\uff0c \u4e07\u6606\uff0c \u5f90\u8389']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'L ZHOU', u'Y HE', u'H CHEN', u'J LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'W PENG', u'S ZENG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'D YU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'C WANG', u'Q LI', u'X ZHOU', u'T YANG']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'GB FAN']
+[u'Y XU', u'H WANG']
+----------------------------------------
+[u'JM MERIG\xd3', u'M CASANOVAS', u'P LIU']
+[u'Y XU', u'H WANG']
+----------------------------------------
+1
+title: A new hybrid artificial bee colony algorithm for robust optimal design and manufacturing
+Count down: 420
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=54&cstart=0
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'S DAS', u'S BISWAS', u'S KUNDU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'SS MAHAPATRA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'L RACHMAWATI', u'K TAI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'TK SHARMA', u'M PANT', u'VP SINGH']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Y YIN', u'M LIU', u'TCE CHENG', u'CC WU', u'SR CHENG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Z WAN', u'L MAO', u'G WANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'A GARG', u'K TAI', u'S BARONTINI', u'A STOKES']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'PM SINGRU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'K TAI', u'V VIJAYARAGHAVAN', u'PM SINGRU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M GHASEMI', u'MM GHANBARIAN', u'S GHAVIDEL', u'S RAHMANI', u'EM MOGHADDAM']
+[u'AR YILDIZ']
+----------------------------------------
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'S DERAKHSHAN', u'M POURMAHDAVI', u'E ABDOLAHNEJAD', u'A REIHANI', u'A OJAGHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'AR JORDEHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Y YIN', u'WH WU', u'WH WU', u'CC WU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'TK SHARMA', u'M PANT', u'VP SINGH']
+[u'AR YILDIZ']
+----------------------------------------
+[u'S DILMAC', u'M KORUREK']
+[u'AR YILDIZ']
+----------------------------------------
+[u'S BISWAS', u'S DAS', u'S KUNDU', u'GR PATRA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'A GARG', u'JSL LAM']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 440
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=54&cstart=20
+[u'X LI', u'M YIN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'P DASH', u'LC SAIKIA', u'N SINHA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M CHIH']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'PM SINGRU', u'L GAO', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Q LONG', u'W ZHANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'D WANG', u'C QUEK', u'GS NG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'H BOUCHEKARA']
+[u'AR YILDIZ']
+----------------------------------------
+[u'CW FONG', u'H ASMUNI', u'B MCCOLLUM', u'P MCMULLAN', u'S OMATU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'GJ BESSERIS']
+[u'AR YILDIZ']
+----------------------------------------
+[u'TK SHARMA', u'M PANT', u'CW AHN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'N NOILUBLAO', u'S BUREERAT']
+[u'AR YILDIZ']
+----------------------------------------
+[u'MC ANG', u'KW NG', u'DT PHAM']
+[u'AR YILDIZ']
+----------------------------------------
+[u'H PASHAZADEH', u'Y GHEISARI', u'M HAMEDI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'J XIAO', u'J ZHOU', u'C LI', u'H XIAO', u'W ZHANG', u'W ZHU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'TO OWOLABI', u'KO AKANDE', u'SO OLATUNJI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M FARHOODNEA', u'A MOHAMED', u'H SHAREEF', u'H ZAYANDEHROODI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'V VIJAYARAGHAVAN', u'A GARG', u'CH WONG', u'K TAI', u'SP REGALLA', u'MC TSAI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'WT SUNG', u'KY CHANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'K AYAN', u'U KILI\xc7', u'B BARAKLI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'I BRAJEVIC']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 460
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=54&cstart=40
+[u'B XING', u'WJ GAO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'A GARG', u'K TAI', u'S SREEDEEP']
+[u'AR YILDIZ']
+----------------------------------------
+[u'Y KAO', u'CC CHEN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'S DILMAC', u'A NIZAM', u'M KORUREK']
+[u'AR YILDIZ']
+----------------------------------------
+[u'J HE', u'L CHEN', u'X WANG', u'Y LI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'I IDRIS', u'A SELAMAT', u'S OMATU']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A JARDZIOCH', u'K BULWAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'S SAEIDI', u'M SOLIMANPUR', u'I MAHDAVI', u'N JAVADIAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'X LI', u'M YIN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'B ZHAO', u'J GAO', u'K CHEN', u'K GUO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'PV PAUL', u'N MOGANARANGAN', u'SS KUMAR', u'R RAJU', u'T VENGATTARAMAN', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'G CHEN', u'J WANG', u'R LI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'CW FONG', u'H ASMUNI', u'WS LAM', u'B MCCOLLUM', u'P MCMULLAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'YT JOU', u'WT LIN', u'WC LEE', u'TM YEH']
+[u'AR YILDIZ']
+----------------------------------------
+[u'D JIA', u'X DUAN', u'MK KHAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M KIANI', u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'K YU', u'X WANG', u'Z WANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'K LENIN', u'BR REDDY', u'MS KALAVATHI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'J ZHANG', u'GF DING', u'YS ZHOU', u'J JIANG', u'X YING', u'SF QIN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'O HEGAZY', u'OS SOLIMAN', u'MA SALAM']
+[u'AR YILDIZ']
+----------------------------------------
+Count down: 480
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=54&cstart=60
+[u'DS SANCHES', u'J DA SILVA ROCHA', u'MF CASTOLDI', u'O MORANDIN JR', u'ERR KATO']
+[u'AR YILDIZ']
+----------------------------------------
+[u'C WORASUCHEEP']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A SINGH', u'D PHILIP', u'J RAMKUMAR']
+[u'AR YILDIZ']
+----------------------------------------
+[u'SH AGHDEAB', u'LA MOHAMMED', u'AM UBAID']
+[u'AR YILDIZ']
+----------------------------------------
+[u'P VICTER PAUL', u'N MOGANARANGAN', u'SS KUMAR', u'R RAJU', u'T VENGATTARAMAN', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'AR YILDIZ']
+[u'AR YILDIZ']
+----------------------------------------
+check is : AR YILDIZ
+[u'F LIANG', u'RYK FUNG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A GARG', u'JSL LAM']
+[u'AR YILDIZ']
+----------------------------------------
+[u'RU RANI']
+[u'AR YILDIZ']
+----------------------------------------
+[u'A FETANAT', u'E KHORASANINEJAD']
+[u'AR YILDIZ']
+----------------------------------------
+[u'WD CHANG']
+[u'AR YILDIZ']
+----------------------------------------
+[u'TK SHARMA', u'M PANT']
+[u'AR YILDIZ']
+----------------------------------------
+[u'AA SALMAN', u'I AHMAD', u'MGH OMRAN']
+[u'AR YILDIZ']
+----------------------------------------
+[u'B GARC\xcdA-DOMINGO', u'CJ CARMONA', u'AJ RIVERA-RIVAS', u'MJ DEL JESUS', u'...']
+[u'AR YILDIZ']
+----------------------------------------
+[u'M REISI-NAFCHI', u'G MOSLEHI']
+[u'AR YILDIZ']
+----------------------------------------
+1
+title: Estimation of elastic constant of rocks using an ANFIS approach
+Count down: 500
+sleeping for an hour now: 10:48:47.587886
+sleep over at: 11:03:47.687991
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=56&cstart=0
+[u'D PETKOVI\u0106', u'M ISSA', u'ND PAVLOVI\u0106', u'L ZENTNER', u'\u017d \u0106OJBA\u0160I\u0106']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'A MOZAFFARI', u'A FATHI', u'A KHAJEPOUR', u'E TOYSERKANI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'NT PAVLOVI\u0106', u'S SHAMSHIRBAND', u'MLM KIAH', u'NB ANUAR', u'MYI IDRIS']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'AC ADOKO', u'C GOKCEOGLU', u'L WU', u'QJ ZUO']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'ND PAVLOVI\u0106', u'\u017d \u0106OJBA\u0160I\u0106', u'NT PAVLOVI\u0106']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'M ISSA', u'ND PAVLOVI\u0106', u'L ZENTNER']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'R SINGH', u'V VISHAL', u'TN SINGH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+check is : R SINGH TN SINGH
+[u'N YESILOGLU-GULTEKIN', u'EA SEZER', u'C GOKCEOGLU', u'H BAYHAN']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S SHAMSHIRBAND', u'D PETKOVI\u0106', u'R HASHIM', u'S MOTAMEDI', u'NB ANUAR']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'B KHOSHNEVISAN', u'S RAFIEE', u'M OMID', u'H MOUSAZADEH', u'S CLARK']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'\u017d \u0106OJBA\u0160I\u010c', u'V NIKOLI\u0106']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'DJ ARMAGHANI', u'ET MOHAMAD', u'E MOMENI', u'MS NARAYANASAMY']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'G LI', u'P NIU', u'C LIU', u'W ZHANG']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'B KHOSHNEVISAN', u'S RAFIEE', u'M OMID', u'H MOUSAZADEH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'N YESILOGLU-GULTEKIN', u'C GOKCEOGLU', u'EA SEZER']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'H BASSER', u'S SHAMSHIRBAND', u'H KARAMI', u'D PETKOVI\u0106', u'S AKIB', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S MOTAMEDI', u'S SHAMSHIRBAND', u'D PETKOVI\u0106', u'R HASHIM']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S SHAMSHIRBAND', u'J IQBAL', u'D PETKOVI\u0106', u'MA MIRHASHEMI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S SHAMSHIRBAND', u'D PETKOVI\u0106', u'NB ANUAR', u'A GANI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'K RAHMANI-MONFARED', u'A FATHI', u'A MOZAFFARI', u'SM RABIEE']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+Count down: 20
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=56&cstart=20
+[u'QH DO', u'JF CHEN']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'J IQBAL', u'NB ANUAR', u'ND PAVLOVI\u0106', u'MLM KIAH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'M ASADI', u'MH BAGHERIPOUR', u'M EFTEKHARI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'NB ANUAR', u'S NAJI', u'MLM KIAH', u'A GANI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'AC ADOKO', u'L WU']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'AA ASRARI', u'K SHAHRIAR', u'M ATAEEPOUR']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'Z LIU', u'J SHAO', u'W XU', u'Y ZHANG', u'H CHEN']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'K RAHMANI-MONFARED', u'A MOZAFFARI', u'M RABIEE', u'A FATHI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVIC', u'M ISSA', u'N D. PAVLOVIC', u'L ZENTNER', u'M NOR RIDZUAN DAUD', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'X FENG', u'R JIMENEZ']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'B KHOSHNEVISAN', u'S RAFIEE', u'M OMID', u'H MOUSAZADEH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'B KHOSHNEVISAN', u'S RAFIEE', u'H MOUSAZADEH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'L ZHANG', u'J LIU', u'J LAI', u'Z XIONG']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'NB ANUAR', u'MHNM NASIR', u'NT PAVLOVI\u0106', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'M FARID', u'MM HOSSEINABADI', u'A YAZDANI-CHAMZINI', u'SH YAKHCHALI', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'Y JIAO', u'H LIU', u'Y CHENG', u'X WANG', u'Y GONG', u'G SONG']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S MALEKI', u'A MORADZADEH', u'RG RIABI', u'R GHOLAMI', u'F SADEGHZADEH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'H LIU', u'VV KRASNOPROSHIN']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'A KARAMI', u'M GUERRERO-ZAPATA']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'M SUBHI AL-BATAH', u'NA MAT ISA', u'MF KLAIB', u'MA AL-BETAR']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+Count down: 40
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=56&cstart=40
+[u'DJ ARMAGHANI', u'ET MOHAMAD', u'M HAJIHASSANI', u'SVANK ABAD', u'A MARTO', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'NB ANUAR', u'AQM SABRI', u'ZBA RAHMAN', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'J SOBHANI', u'M NAJIMI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'ET AL-SHAMMARI', u'M AMIRMOJAHEDI', u'S SHAMSHIRBAND', u'D PETKOVI\u0106', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'A KARAMI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'M HAYATI', u'AM RASHIDI', u'A REZAEI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'R GHOLAMI', u'A MORADZADEH', u'V RASOULI', u'J HANACHI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'\u5468\u9814\uff0c \u5b59\u4fca']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'MJ AMIRI', u'J ABEDI-KOUPAI', u'SS ESLAMIAN', u'SF MOUSAVI', u'H HASHEMINEJAD']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'ND PAVLOVI\u0106']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'A KAYABASI', u'D TURER', u'N YESILOGLU-GULTEKIN', u'C GOKCEOGLU']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'M ISSA', u'ND PAVLOVI\u0106', u'L ZENTNER']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S SABZI', u'P JAVADIKIA', u'H RABBANI', u'A ADELKHANI', u'L NADERLOO']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'SH AB HAMID', u'\u017d \u0106OJBA\u0160I\u0106', u'NT PAVLOVI\u0106']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'NT PAVLOVI\u0106', u'NB ANUAR', u'MLM KIAH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'ND PAVLOVI\u0106']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'R GHOLAMI', u'A MORADZADEH', u'V RASOULI', u'J HANACHI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'YH ZHOU', u'HW MA']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'QH DO', u'JF CHEN']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+Count down: 60
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=56&cstart=60
+[u'JF CHEN', u'QH DO']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'A ABBASI', u'K KIANI', u'ET AL-SHAMMARI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'M ABDELLAHI', u'H GHAYOUR', u'M BAHMANPOUR']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'XD FENG', u'R JIMENEZ']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'CW TONG', u'ET AL-SHAMMARI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'D PETKOVI\u0106', u'S SHAMSHIRBAND', u'ND PAVLOVI\u0106', u'H SABOOHI', u'TA ALTAMEEM', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'J GUO', u'G XU', u'H JING', u'T KUANG']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'DJ ARMAGHANI', u'E MOMENI', u'SVANK ABAD', u'M KHANDELWAL']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'I FIGUEROA-GARC\xcdA', u'G S\xc1NCHEZ-SOSA', u'R D\xcdAZ-DOM\xcdNGUEZ', u'...']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'M YARI', u'R BAGHERPOUR', u'S JAMALI', u'R SHAMSI']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'S SHAMSHIRBAND']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+[u'A KAINTHOLA', u'PK SINGH', u'D VERMA', u'R SINGH', u'K SARKAR', u'TN SINGH']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+check is : R SINGH A KAINTHOLA TN SINGH
+[u'A KAYABASI', u'N YESILOGLU-GULTEKIN', u'C GOKCEOGLU']
+[u'R SINGH', u'A KAINTHOLA', u'TN SINGH']
+----------------------------------------
+1
+title: A linguistic consensus model for Web 2.0 communities
+Count down: 80
+fetching all 20 cited papers from: /citations?hl=en&venue=lFUe46cMy-8J.2015&view_op=hcore_citedby&hcore_pos=57&cstart=0
+[u'E HERRERA-VIEDMA', u'FJ CABRERIZO', u'J KACPRZYK', u'W PEDRYCZ']
+[u'S ALONSO', u'IJ P\xc9REZ', u'FJ CABRERIZO', u'E HERRERA-VIEDMA']
+----------------------------------------
+check is : E HERRERA-VIEDMA FJ CABRERIZO
 Traceback (most recent call last):
-  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 265, in <module>
+  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 278, in <module>
+[u'I PALOMARES', u'L MARTINEZ', u'F HERRERA']
+[u'S ALONSO', u'IJ P\xc9REZ', u'FJ CABRERIZO', u'E HERRERA-VIEDMA']
+----------------------------------------
+[u'J WANG', u'L PENG', u'H ZHANG', u'X CHEN']
+[u'S ALONSO', u'IJ P\xc9REZ', u'FJ CABRERIZO', u'E HERRERA-VIEDMA']
+----------------------------------------
+[u'IJ P\xc9REZ', u'R WIKSTR\xd6M', u'J MEZEI', u'C CARLSSON', u'E HERRERA-VIEDMA']
+[u'S ALONSO', u'IJ P\xc9REZ', u'FJ CABRERIZO', u'E HERRERA-VIEDMA']
+----------------------------------------
     getPubInfo(pubsForjNameURL, journalName, pages) #PAGING logic
-  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 169, in getPubInfo
+  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 170, in getPubInfo
     selfcites_count = selfcites_count +  computeSelfcites(Link, authors, citesCount)
-  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 187, in computeSelfcites
-    html_page = urlopener(url)
-  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 82, in urlopener
-    html_page = (opener.open(url)).read()
-  File "/usr/lib/python2.7/urllib2.py", line 400, in open
-    response = self._open(req, data)
-  File "/usr/lib/python2.7/urllib2.py", line 418, in _open
-    '_open', req)
-  File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python2.7/urllib2.py", line 1215, in https_open
-    return self.do_open(httplib.HTTPSConnection, req)
-  File "/usr/lib/python2.7/urllib2.py", line 1177, in do_open
-    raise URLError(err)
-urllib2.URLError: <urlopen error [Errno 101] Network is unreachable>
-
-
-
-
-
+  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 208, in computeSelfcites
+    check = compareToauthors(list1, list2 )
+  File "/home/gouri/workspace/Prj/Main/selfcites.py", line 227, in compareToauthors
+    print "check is : " + str(check)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 4: ordinal not in range(128)
