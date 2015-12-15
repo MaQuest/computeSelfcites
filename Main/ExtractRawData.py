@@ -19,6 +19,7 @@ Article_cited = []
 year= ['2012', '2013', '2014', '2015']
 h5_index = 0
 count = 1
+
 # create wait range between 20 and 40 seconds
 r = range(20,60)
 
@@ -103,6 +104,7 @@ def getLinktoAllPapers( jName):
         print "Extracting cited docs for: " + youRL
         global J_info
         J_info = {'JName': jName, 'h5_index' : h5_indexSTR, 'h5_median': h5_medianSTR, 'venue' : youRL };
+        print J_info
         #writeToSpreadsheet(dict1)
         #writeToFile ("link to main is: "+youRL+"\n") 
         return youRL
@@ -124,7 +126,7 @@ def getPubInfo(pubsLink, jName, pages):
     if html_page!= False:
         soup = BeautifulSoup(html_page)
         td_list = []
-        global count
+        global count, cited_doc_Count
         table = soup.find('table', {'id': 'gs_cit_list_table'})
         #for testing this will halp start from the middle of scraping at particular paper
         global IsTesting
@@ -147,9 +149,12 @@ def getPubInfo(pubsLink, jName, pages):
                         citesCount = int(td_list[1].text)
                         print "title: " + str(title.encode('utf-8'))
                         dict1 = {'Id': count, 'JName': jName, 'Authors_name': authors.encode('utf-8'), 'YearOfPub':td_list[2].text, 'CitedByLink': citesLink, 'TotalCites':citesCount, 'SelCitesPerPaper':-1, 'Title': title.encode('utf-8')};
+                        print dict1
                         count = count+1
+                        cited_doc_Count = 0
                         #writeToFile("https://scholar.google.com/"+citesLink+"\n" )
                         #for this paper review the cited papers and compute self citations
+                        cited_doc_list = []
                         for pages in range(0, citesCount, 20):
                             #controlling the blocking of the program
                             global stopat1000
@@ -158,11 +163,14 @@ def getPubInfo(pubsLink, jName, pages):
               
                             Link = citesLink + "&cstart=" + str(pages)
                             print "fetching all 20 cited papers from: " + Link
-                            articleList = fetchCitedArticles(Link)
+                            citedPapers = fetchCitedArticles(Link)
+                            cited_doc_list.append(citedPapers)
                             #writeToFile(Link)
-                        dict1['CitedPapers'] = articleList      
+                        dict1['CitedPapers']= cited_doc_list
+                        #print dict1      
                         global J_articles
-                        J_articles.append(dict1)           
+                        J_articles.append(dict1)          
+                         
                         
                     else:
                         print "skipped: " + str(skipCount)
@@ -202,9 +210,11 @@ def fetchCitedArticles(citesLink):
                     pubName = attList[2]       
                 else :
                     pubName = "null"
-                
-                dict1 = {'Title':title, 'Link':link, 'year':year, 'authors':authors, 'pubName':pubName}    
+                global cited_doc_Count
+                cited_doc_Count = cited_doc_Count +1
+                dict1 = {'citedId':cited_doc_Count, 'Title':title.encode('utf-8'), 'Link':link, 'year':year, 'authors':authors.encode('utf-8'), 'pubName':pubName}    
                 print dict1
+                
                 citedList.append(dict1)
     
     return citedList            
@@ -232,7 +242,7 @@ while (TotJnames > 0):
     #For testing
     
     if int(IsTesting) == 1: 
-        s ="Applied Soft Computing" #"3D Research" #"4OR"#"Expert Systems with Applications" #"The Journal of Machine Learning Research"#"ACM Computing Surveys"#"3D Research" #"ACM Transactions on Computational Logic" #"ACM Computing Surveys"#"AAAI Conference on Artificial Intelligence"#"ACM Communications in Computer Algebra"  #"AAAI Conference on Artificial Intelligence" #"ACM Transactions on Applied Perception" #"ACM Transactions on Autonomous and Adaptive Systems" #"ACM Computing Surveys" #"ACM Transactions on Applied Perception" #"4OR" 
+        s ="Applied Soft Computing"#"Expert Systems with Applications"#"3D Research" #"Applied Soft Computing" #"4OR"#"Expert Systems with Applications" #"The Journal of Machine Learning Research"#"ACM Computing Surveys"#"3D Research" #"ACM Transactions on Computational Logic" #"ACM Computing Surveys"#"AAAI Conference on Artificial Intelligence"#"ACM Communications in Computer Algebra"  #"AAAI Conference on Artificial Intelligence" #"ACM Transactions on Applied Perception" #"ACM Transactions on Autonomous and Adaptive Systems" #"ACM Computing Surveys" #"ACM Transactions on Applied Perception" #"4OR" 
     else: #from file
         s = readFile.ReadJName()  
     
