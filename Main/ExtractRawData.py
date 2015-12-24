@@ -1,5 +1,7 @@
 #Author: Gouri Ginde
-#This program computes the selfcitations for 3 sub categories under Engg and Computer Science of GS
+#This program scrapes all the raw data for a journal and stores it in the JSON format.
+#the problem is the JSON object can not be stored untill all the scraping is over
+# so moving on to a newer idea
 # Mainly AI, Evolutionary computation and Computing Systems
 from BeautifulSoup import BeautifulSoup
 from time import sleep
@@ -19,7 +21,6 @@ Article_cited = []
 year= ['2012', '2013', '2014', '2015']
 h5_index = 0
 count = 1
-
 # create wait range between 20 and 40 seconds
 r = range(20,60)
 
@@ -49,6 +50,7 @@ def checkForDwnldThreshold():
         print "sleep over"
         stopFortheDay = 0
 
+   
 #this is depricated as directly data is written to spreadsheet
 def writeToFile(somestr):
     global f
@@ -102,6 +104,7 @@ def getLinktoAllPapers( jName):
         venue = (td_list[2].find("a")).get('href')
         youRL = "https://scholar.google.com/"+ venue
         print "Extracting cited docs for: " + youRL
+        
         global J_info
         J_info = {'JName': jName, 'h5_index' : h5_indexSTR, 'h5_median': h5_medianSTR, 'venue' : youRL };
         print J_info
@@ -148,8 +151,14 @@ def getPubInfo(pubsLink, jName, pages):
                         title = (td_list[0].find("span")).text
                         citesCount = int(td_list[1].text)
                         print "title: " + str(title.encode('utf-8'))
+                        
                         dict1 = {'Id': count, 'JName': jName, 'Authors_name': authors.encode('utf-8'), 'YearOfPub':td_list[2].text, 'CitedByLink': citesLink, 'TotalCites':citesCount, 'SelCitesPerPaper':-1, 'Title': title.encode('utf-8')};
+                        
                         print dict1
+                        print "ARTICLE"
+                        
+       
+                       
                         count = count+1
                         cited_doc_Count = 0
                         #writeToFile("https://scholar.google.com/"+citesLink+"\n" )
@@ -167,6 +176,7 @@ def getPubInfo(pubsLink, jName, pages):
                             cited_doc_list.append(citedPapers)
                             #writeToFile(Link)
                         dict1['CitedPapers']= cited_doc_list
+                        print "ARTICLE"
                         #print dict1      
                         global J_articles
                         J_articles.append(dict1)          
@@ -214,9 +224,9 @@ def fetchCitedArticles(citesLink):
                 cited_doc_Count = cited_doc_Count +1
                 dict1 = {'citedId':cited_doc_Count, 'Title':title.encode('utf-8'), 'Link':link, 'year':year, 'authors':authors.encode('utf-8'), 'pubName':pubName}    
                 print dict1
-                
                 citedList.append(dict1)
-    
+                
+   
     return citedList            
                 
 
@@ -251,6 +261,7 @@ while (TotJnames > 0):
     start = "------------------" + s + "-----------------\n"
     
     global f
+    
     f = file('../dump/'+s+'.txt', 'a')
     #writeToFile(start)
     #NOTE: init all the global variables after printing data to file
@@ -272,7 +283,7 @@ while (TotJnames > 0):
         #    print e
         #writeToFile( str(pages)+"\n" )
     global J_articles
-    J_info['article'] = J_articles  
+    J_info['articles'] = J_articles  
     writeToFile(J_info)
     #print JInfo
     #writeToSpreadsheet(JInfo)

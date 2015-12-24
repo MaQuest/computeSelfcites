@@ -1,0 +1,34 @@
+<div id="frag_1" class="page_fragment auth_frag" data-first="true" data-fid="1">
+  <div class="module_topic_paths"></div>
+  <h1 class="svTitle" id="">A linguistic consensus model for Web 2.0 communities</h1>
+      <ul class="authorGroup noCollab svAuthor">
+          <li>
+             <a href="#" class="authorName svAuthor" data-orcid="" id="authname_N6fe14fe0N98ab4370" data-t="a" data-fn="S." data-ln="Alonso" data-pos="1" data-tb="">S. Alonso</a>
+             <a title="Affiliation: a" href="#aff0005" class="intra_ref auth_aff" id="baff0005"><sup>a</sup></a><sup>, </sup>
+             <a href="mailto:zerjioi@ugr.es" class="auth_mail" title="E-mail the corresponding author"></a>,
+          </li>
+        
+          <li>
+            <a href="#" class="authorName svAuthor" data-orcid="" id="authname_N6fe14fe0N98ab4400" data-t="a" data-fn="I.J." data-ln="P&eacute;rez" data-pos="2" data-tb="">I.J. P&eacute;rez</a>
+            <a title="Affiliation: b" href="#aff0010" class="intra_ref auth_aff" id="baff0010"><sup>b</sup></a><sup>, </sup><a href="mailto:ijperez@decsai.ugr.es" class="auth_mail" title="E-mail the corresponding author"></a>,
+          </li>
+
+          <li>
+             <a href="#" class="authorName svAuthor" data-orcid="" id="authname_N6fe14fe0N98ab4490" data-t="a" data-fn="F.J." data-ln="Cabrerizo" data-pos="3" data-tb="">F.J. Cabrerizo</a>
+             <a title="Affiliation: c" href="#aff0015" class="intra_ref auth_aff" id="baff0015"><sup>c</sup></a><sup>, </sup><a href="mailto:cabrerizo@issi.uned.es" class="auth_mail" title="E-mail the corresponding author"></a>,
+          </li>
+
+         <li>
+             <a href="#" class="authorName svAuthor" data-orcid="" id="authname_N6fe14fe0N98ab4520" data-t="a" data-fn="E." data-ln="Herrera-Viedma" data-pos="4" data-tb="">E. Herrera-Viedma</a>
+             <a title="Affiliation: b" href="#aff0010" class="intra_ref auth_aff" id="baff0010"><sup>b</sup></a><sup>, </sup>
+             <a title="Corresponding author contact information" href="#cor0005" id="bcor0005" class="intra_ref auth_corr"></a><sup>, </sup>
+             <a href="mailto:viedma@decsai.ugr.es" class="auth_mail" title="E-mail the corresponding author"></a>
+        </li>
+     </ul>
+ 
+<ul class="affiliation authAffil">
+    <li id="aff0005"><sup>a</sup> <span id="">Department of Software Engineering, University of Granada, Spain</span></li>
+    <li id="aff0010"><sup>b</sup> <span id="">Department of Computer Science and Artificial Intelligence, University of Granada, Spain</span></li>
+    <li id="aff0015"><sup>c</sup> <span id="">Department of Software Engineering and Computer Systems, Distance Learning University of Spain, Spain</span></li></ul>
+
+
