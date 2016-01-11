@@ -9,6 +9,7 @@ from random import choice
 import urllib2
 import sys
 import json
+sys.path.append('/home/gouri/workspace/Prj/Test')
 import readFile
 import datetime
 import codecs

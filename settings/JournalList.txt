@@ -1,34 +1,35 @@
 Neural Information Processing Systems (NIPS)
-Applied Soft Computing
+Applied Soft Computing (done, scienceDirect)
 arXiv Learning (cs.LG)
-IEEE Transactions on Fuzzy Systems
+IEEE Transactions on Fuzzy Systems (done)
 IEEE Transactions On Systems, Man And Cybernetics Part B, Cybernetics
-IEEE Transactions on Neural Networks
-arXiv Machine Learning (stat.ML)
-Neurocomputing
-AAAI Conference on Artificial Intelligence
-Artificial Intelligence
+IEEE Transactions on Neural Networks (remove)
+arXiv Machine Learning (stat.ML) (done)
+Neurocomputing (ScienceDirect)
+AAAI Conference on Artificial Intelligence (ACM)
+Artificial Intelligence (ACM)
 International Joint Conference on Artificial Intelligence (IJCAI)
-Engineering Applications of Artificial Intelligence
-Neural Networks
-IEEE Transactions on Neural Networks and Learning Systems
+Engineering Applications of Artificial Intelligence (ScienceDirect)
+Neural Networks (ScienceDirect) 
+IEEE Transactions on Neural Networks and Learning Systems(done)
 arXiv Artificial Intelligence (cs.AI)
 IEEE International Conference on Data Mining (ICDM)
-Machine Learning
-Applied Soft Computing
+The Journal of Machine Learning Research (ACM)
+Applied Soft Computing  (ScienceDirect)
 IEEE Transactions on Evolutionary Computation
-Soft Computing
-Conference on Genetic and Evolutionary Computation
+Soft Computing (springer)
+International Conference on Artificial Intelligence and Soft Computing ICAISC (Springer)
+Conference on Genetic and Evolutionary Computation (ACM)
 IEEE Congress on Evolutionary Computation
 arXiv Neural and Evolutionary Computing (cs.NE)
-Swarm and Evolutionary Computation
-Evolutionary Computation
-Natural Computing
+Swarm and Evolutionary Computation (ScienceDirect)
+Evolutionary Computation (MIT Pres)
+Natural Computing (Springer)
 International Journal of Bio-Inspired Computation
 International Conference on Applications of Evolutionary Computation
 International Conference on Parallel problem solving from nature
-Artificial Life
-Genetic Programming and Evolvable Machines
+Artificial Life (MIT press)
+Genetic Programming and Evolvable Machines (done) (springer)
 International Conference on Natural Computation
 Learning and Intelligent Optimization
 Memetic Computing
@@ -40,7 +41,7 @@ Symposium on Networked Systems: Design and Implementation (NSDI)
 International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
 Future Generation Computer Systems
 International Symposium on Computer Architecture (ISCA)
-Supercomputing (SC)
+Supercomputing (SC) (ACM)
 IEEE International Conference on Cloud Computing (CLOUD)
 IEEE International Symposium on Parallel and Distributed Processing
 ACM european Conference on Computer Systems
@@ -53,5 +54,5 @@ IEEE International Symposium on Cluster Computing and the Grid
 ACM SIGMETRICS Performance Evaluation Review
 International Conference on Distributed Computing Systems, ICDCS
 IEEE Transactions on Services Computing
-Journal of Parallel and Distributed Computing
+Journal of Parallel and Distributed Computing (ScienceDirect)
 USENIX Annual Technical Conference

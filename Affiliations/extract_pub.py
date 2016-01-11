@@ -11,6 +11,13 @@ import datetime
 import codecs
 import json
 import re
+authorsList = []
+AffiliationsList = [] 
+
+#def wrtietoFile(ele):
+#    writer = csv.writer(open('dict.csv', 'wb'))
+#    for key, value in mydict.items():
+#        writer.writerow([key, value])
 
 def urlopener(url):
     opener = urllib2.build_opener()
@@ -55,29 +62,106 @@ def getAllCitingArticles(articleURL):
     
     return citingList
 
-def getAuthorAffiliations(ArticleEle):
-    #item = uniqueList[3]
+def getAffsSpringer(ArticleEle):
     item = ArticleEle['A_URL']
-    #print item
-    soup = getPageContent(item)
-    #print soup
-    re_direct = (soup.find('script')).text
-    extract = re_direct.split("'")
-    #print extract
-    ArticleEle['A_URL'] = extract[1] # overwrite the existing to actual one
-    soup1 = getPageContent(extract[1])
-    #print soup1
-    #affs = soup1.find('ul', {'class': "affiliation authAffil"})
-    #print affs
-    #print "##########################################################################"
+    #item = "http://link.springer.com/article/10.1007/s00500-010-0591-1"#"http://link.springer.com/article/10.1007/s00500-012-0824-6"
+    soup1 = getPageContent(item)
+    
+    affs = []
+    aa = soup1.find('ul', {'class' : "AuthorNames"})
+    ab = aa.findAll('li')
+    for row in ab:
+        auth = (row.find('span', {'class': "AuthorName"})).text
+        Aff_tp = row.find('span', {'class': "AuthorsName_affiliation"})
+        Aff = (Aff_tp.span).text
+        L1 = [auth, Aff]
+        affs.append(L1)
+        print auth, Aff
+        
+    ct = 1
+    for x in affs:
+        ArticleEle.update({'Auth_'+str(ct)+'_Aff':x[1]})
+        ct = ct + 1
+            
+    return ArticleEle
+
+def getAffsACM(ArticleEle):
+    item = ArticleEle['A_URL']
+    
+    #item = "http://dl.acm.org/citation.cfm?id=2168843"#"http://dl.acm.org/citation.cfm?id=2168841" #"http://dl.acm.org/citation.cfm?id=2451146"
+    soup1 = getPageContent(item)
+    #get the affiliations
+    affs = [] #list which stores authname, id, affs in that order
+    # get the author names "authorName svAuthor"
+    ab = soup1.find('div', {'id' : "divmain"})
+    x = ab.table
+    tables = x.findAll('table')
+    
+    bibs = tables[4].findAll("tr")
+    tmp =  (bibs[2].find("td")).text
+    tml = tmp.replace(";&nbsp;", "")
+    dwlnds = tml.split("&middot")
+    
+    dwn = dwlnds[3].split(":")
+    local = dwlnds[4].split(":")
+    print dwlnds[3],dwlnds[4],dwn[1]
+    ArticleEle.update({'Downloads':dwn[1]})
+    ArticleEle.update({'local_cites':local[1]})
+    
+    for row in tables[1].findAll("tr"):
+        detls = row.findAll('td')
+        auth = (detls[1].text).encode('utf-8')
+        
+        print "Auth: " + str(auth)
+        if detls[2].text is not None:
+            Aff = (detls[2].text).encode('utf-8')
+            print "Affs: " + str(Aff)
+         
+        else:
+            affs = "null"
+        L1 = [auth, Aff]
+        affs.append(L1)
+         
+          
+    print "-------------------------------------------"
+     
+    ct = 1
+    for aa in affs:
+        ArticleEle.update({'Auth_'+str(ct)+'_Aff':aa[1]})
+        ct = ct + 1
+    
+    
+    return ArticleEle
+
+def getAffsIEEEXplore(ArticleEle):
+    return
+
+def getAuthorAffiliations(ArticleEle):
+    item = ArticleEle['A_URL']
+    if "sciencedirect" in item:
+        updatedEle = getAffsScienceDirect(ArticleEle)
+        return updatedEle
+    elif "springer" in item:
+        updatedEle = getAffsSpringer(ArticleEle)
+        return updatedEle
+    elif "dl.acm" in item:
+        updatedEle = getAffsACM(ArticleEle)
+        return updatedEle
+    elif "ieeexplore" in item:
+        updatedEle = getAffsIEEEXplore(ArticleEle)
+        return updatedEle
+    else:
+        return False
+    
+
+def getAffsScienceDirect(ArticleEle):
+    
+    item = ArticleEle['A_URL']
+    soup1 = getPageContent(item)
+    #add logic here to get check if the article is from springer/ACM or the IEEE
     
     #get the affiliations
-    #list of dictionary with elements as below: 
-    #{'Affs': u'aDepartment of Engineering, University of Cambridge, Trumpington Street, Cambridge CB2 1PZ, UK', 'Auth_1': u'Xin-She Yang', 'id': u'#aff0005'}
-    #{'Affs': u'bYoung Researchers Club, Sari Branch, Islamic Azad University, Sari, Iran', 'id': u'#aff0010', 'Auth_2': u'Seyyed Soheil Sadat Hosseini'}
-    #{'Affs': u'cYoung Researchers Club, Central Tehran Branch, Islamic Azad University, Tehran, Iran', 'id': u'#aff0015', 'Auth_3': u'Amir Hossein Gandomi'}
-
-    affs = [] 
+    affs = [] #list which stores authname, id, affs in that order
     # get the author names "authorName svAuthor"
     ab = soup1.find('ul', {'class' : "authorGroup noCollab svAuthor"})
     #print ab
@@ -144,7 +228,6 @@ def getAuthorAffiliations(ArticleEle):
             x = affs[0][2]
             m.append(x)
     
-    
     ct =0
     for m in affs:
         ct = ct +1
@@ -194,11 +277,11 @@ def ComputeSelfCitations(CList):
     #compare, if match increment the counter, add this counter as a new field
     #print  CList[0]
     #print  CList[0]['A_C_Title']
-    list1 = (CList[0]['A_Authors_names']).split(",")   
+    #list1 = (CList[0]['A_Authors_names']).split(",")   
     #print list1
     #print "-------------------"
     cleanList = cleanUp(CList)
-    #print len(cleanList)
+    print len(cleanList)
     #articleAuth = list1.split(",")
     selfcites = 0 
     for i in cleanList:
@@ -207,17 +290,32 @@ def ComputeSelfCitations(CList):
         if check == True:
             selfcites = selfcites + 1
     #print "Selfcites = :" + str(selfcites)
-    ArticleData = generateDictionaryNode(list1, CList[0], selfcites)
-    return ArticleData
+    
+    #ArticleData = generateDictionaryNode(list1, CList[0], selfcites)
+    return selfcites
+
+def getRedirectedUrl(OrigUrl):
+    soup = getPageContent(OrigUrl)
+    #print soup
+    re_direct = (soup.find('script')).text
+    extract = re_direct.split("'")
+    #print extract
+    
+    #et = "http://dl.acm.org/citation.cfm?id=2168841"
+    return extract[1] # overwrite the existing to actual one
+    #return et
+    
 
 def generateDictionaryNode(list1,ArticleInfo, selfciteCount ):
     authNameEle = createAuthElements(list1)
+    URl = getRedirectedUrl(ArticleInfo['A_URL'])
+    URL = URl.replace("\\x3d", "=")
     #create a new dictionary element and return
     dictEle = {'A_Year':ArticleInfo['A_Year'] , 'A_articlePub':ArticleInfo['A_articlePub'] , 
-               'A_Title':ArticleInfo['A_C_Title'], 'A_CitedByC_Link':ArticleInfo['A_CitedBy_Link'] ,
+               'A_Title':ArticleInfo['A_Title'], 'A_CitedByLink':ArticleInfo['A_CitedByLink'] ,
                'A_TotalCites':ArticleInfo['A_TotalCites'] , 'J_h5_index':ArticleInfo['J_h5_index'] ,
                'J_venue':ArticleInfo['J_venue'], 'J_h5_median': ArticleInfo['J_h5_median'], 
-               'A_URL':ArticleInfo['A_URL'], 'J_Name':ArticleInfo['J_Name'],
+               'A_URL':URL, 'J_Name':ArticleInfo['J_Name'],
                'A_SelfCites': selfciteCount}
     dictEle.update(authNameEle)
     
@@ -232,12 +330,18 @@ def getPageContent(link):
     return False
 
 
-data = json.load(open('../dump/AppliedSoftComputing.txt'))
+data = json.load(open('../dump/ACM european Conference on Computer Systems.txt'))
+# Springer: data = json.load(open('../dump/Genetic Programming and Evolvable Machines.txt'))
+#data = json.load(open('../dump/Genetic Programming and Evolvable Machines.txt'))
 #print data
 #print len(data)
 
 AllArticleURLs = []
+All_tmpArticleInfo = []
 AllArticleInfo = []
+#tp = getAffsACM("dummy")
+#getAffsSpringer("dummy")
+
 #for every element in the file fetch the article URL into a list        
 for i in data: #i is each dictionary element
     if 'A_URL' in i:
@@ -245,32 +349,38 @@ for i in data: #i is each dictionary element
         #print url
         AllArticleURLs.append(url)
         
-#print len(set(AllArticleURLs))
-#print set(articleURLs) 
+print "Total Unique are" + str(len(set(AllArticleURLs)))
+print set(AllArticleURLs) 
 
 uniqueList = list(set(AllArticleURLs)) #this set consists of the unique URL's of the articles in a Journal
 # for every article extract the list of citing articles
+#print uniqueList
 for i in uniqueList:
-    #i = uniqueList[1]
+    #i = uniqueList[0]
     #print i
     citingArticles = getAllCitingArticles(i)
-    #print len(citingArticles)
-    #print citingArticles
-    #print "-------------------------------------------------------"
-    ArticleInfo = ComputeSelfCitations (citingArticles)
-    #print "Article Data is:" 
-    #print ArticleInfo
-    AllArticleInfo.append(ArticleInfo)
-
-#print AllArticleInfo
-#for every article dictionary in the AllArticleInfo, process the URL to scrape the Author affiliations
-for m in AllArticleInfo:
-    #m  = AllArticleInfo[11]
-    Affs_Info = getAuthorAffiliations(m)
-    pprint.pprint(Affs_Info, width=1)
+    list1 = (citingArticles[0]['A_Authors_names']).split(",")   
     
-    #print Affs_Info
-#add Affs_Info to existing dictionary element m
+    #print len(citingArticles)
+    #pprint.pprint(citingArticles, width=1)
+    #print "-------------------------------------------------------"
+    
+    self_cites = ComputeSelfCitations (citingArticles)
+    #self_cites = 0
+    ArticleInfo = generateDictionaryNode(list1, citingArticles[0], self_cites)
+    All_tmpArticleInfo.append(ArticleInfo)
+
+print All_tmpArticleInfo
+#pprint.pprint(All_tmpArticleInfo, width=1)
+#for every article dictionary in the AllArticleInfo, process the URL to scrape the Author affiliations
+for m in All_tmpArticleInfo:
+    #m  = All_tmpArticleInfo[0]
+    Affs_Info = getAuthorAffiliations(m)
+    AllArticleInfo.append(Affs_Info)
+pprint.pprint(AllArticleInfo, width=1)
+    
+#print Affs_Info
+#add Affs_Info to existing dictionary element
 
 #Print the info of all the articles in a journals
 #compute the total citations and self-citations of the Journal by doing just additions
