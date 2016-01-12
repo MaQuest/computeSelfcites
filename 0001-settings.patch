@@ -1,0 +1,25 @@
+From f2297511ae42d4fab904a582ce56e418930677f2 Mon Sep 17 00:00:00 2001
+From: gouri <gouri@gouri-Vostro-3546.(none)>
+Date: Wed, 11 Nov 2015 19:01:31 +0530
+Subject: [PATCH] settings
+
+---
+ settings/settings.ini |    6 ++++++
+ 1 file changed, 6 insertions(+)
+ create mode 100644 settings/settings.ini
+
+diff --git a/settings/settings.ini b/settings/settings.ini
+new file mode 100644
+index 0000000..cf1ee8a
+--- /dev/null
++++ b/settings/settings.ini
+@@ -0,0 +1,6 @@
++[line_num]
++journalfile = /home/gouri/workspace/Prj/settings/JournalList.txt
++line = 3
++istesting = 0
++headeradded = 1
++
+-- 
+1.7.9.5
+
